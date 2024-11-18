@@ -1,6 +1,5 @@
 import requests
 from bs4 import BeautifulSoup
-import certifi
 
 def extract_text_from_url(url, output_file):
     try:

@@ -54,7 +54,7 @@ def generate_embeddings_huggingface(chunks, model_name="all-MiniLM-L6-v2"):
     return vector_store
 
 def main():
-    input_file = "extracted_text.txt"
+    input_file = "./data/extracted_text.txt"
     
     # Step 1: Split the text into chunks
     print("Splitting text into chunks...")
