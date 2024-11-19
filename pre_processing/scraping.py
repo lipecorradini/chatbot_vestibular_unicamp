@@ -104,7 +104,7 @@ def process_tables(csv_directory, output_file):
                         formatted_line += f"Para {header} {value}"
                     else:
                         # Subsequent columns use "temos"
-                        formatted_line += f" temos {header}:{value}"
+                        formatted_line += f" o {header} é {value}, "
                 
                 # Add a newline character at the end
                 formatted_line += "\n"
@@ -120,9 +120,9 @@ def process_tables(csv_directory, output_file):
 
 if __name__ == "__main__":
     url = "https://www.pg.unicamp.br/norma/31879/0"
-    text_output_file = './data/text/extracted_text.txt'
-    tables_output_file = './data/text/tables.txt'
-    tables_directory = './data/tables'
+    text_output_file = '../data/text/extracted_text.txt'
+    tables_output_file = '../data/text/tables.txt'
+    tables_directory = '../data/tables'
 
     # Extract text and tables from the URL
     tables = extract_text_from_url(url, text_output_file)

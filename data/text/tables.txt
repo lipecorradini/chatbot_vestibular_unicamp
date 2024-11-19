@@ -1,223 +1,224 @@
-Para Cursos Curso Treineiros Ciências Exatas/ Tecnológicas temos Total Vagas:100 temos Ampla Concorrência Mínimo:73 temos Ampla Concorrência Máximo:85 temos Reserva de Vagas para PP 15%:15 temos Reserva de Vagas para PP 27,2%:27
-Para Cursos Curso Treineiros Ciências Biológicas / Saúde temos Total Vagas:150 temos Ampla Concorrência Mínimo:109 temos Ampla Concorrência Máximo:128 temos Reserva de Vagas para PP 15%:23 temos Reserva de Vagas para PP 27,2%:41
-Para Cursos Curso Treineiros Ciências Humanas / Artes temos Total Vagas:100 temos Ampla Concorrência Mínimo:73 temos Ampla Concorrência Máximo:85 temos Reserva de Vagas para PP 15%:15 temos Reserva de Vagas para PP 27,2%:27
-Para Cursos Administração (Noturno) temos Total Vagas Regulares:180 temos Total Vagas VU:143 temos Ampla Concorrência Mínimo:94 temos Ampla Concorrência Máximo:116 temos Reserva de Vagas para PP 15%*:27 temos Reserva de Vagas para PP 27,2%*:49
-Para Cursos Administração Pública (Noturno) temos Total Vagas Regulares:60 temos Total Vagas VU:47 temos Ampla Concorrência Mínimo:31 temos Ampla Concorrência Máximo:38 temos Reserva de Vagas para PP 15%*:9 temos Reserva de Vagas para PP 27,2%*:16
-Para Cursos Arquitetura e Urbanismo (Noturno) temos Total Vagas Regulares:30 temos Total Vagas VU:24 temos Ampla Concorrência Mínimo:16 temos Ampla Concorrência Máximo:19 temos Reserva de Vagas para PP 15%*:5 temos Reserva de Vagas para PP 27,2%*:8
-Para Cursos Artes Cênicas (Integral)** temos Total Vagas Regulares:25 temos Total Vagas VU:25 temos Ampla Concorrência Mínimo:16 temos Ampla Concorrência Máximo:19 temos Reserva de Vagas para PP 15%*:6 temos Reserva de Vagas para PP 27,2%*:9
-Para Cursos Artes Visuais (Integral)** temos Total Vagas Regulares:30 temos Total Vagas VU:30 temos Ampla Concorrência Mínimo:19 temos Ampla Concorrência Máximo:22 temos Reserva de Vagas para PP 15%*:8 temos Reserva de Vagas para PP 27,2%*:11
-Para Cursos Ciência da Computação (Noturno) temos Total Vagas Regulares:50 temos Total Vagas VU:40 temos Ampla Concorrência Mínimo:26 temos Ampla Concorrência Máximo:32 temos Reserva de Vagas para PP 15%*:8 temos Reserva de Vagas para PP 27,2%*:14
-Para Cursos Ciências Biológicas - Licenciatura (Noturno) temos Total Vagas Regulares:45 temos Total Vagas VU:33 temos Ampla Concorrência Mínimo:21 temos Ampla Concorrência Máximo:26 temos Reserva de Vagas para PP 15%*:7 temos Reserva de Vagas para PP 27,2%*:12
-Para Cursos Ciências Biológicas (Integral) temos Total Vagas Regulares:45 temos Total Vagas VU:33 temos Ampla Concorrência Mínimo:21 temos Ampla Concorrência Máximo:26 temos Reserva de Vagas para PP 15%*:7 temos Reserva de Vagas para PP 27,2%*:12
-Para Cursos Ciências do Esporte (Integral) temos Total Vagas Regulares:60 temos Total Vagas VU:46 temos Ampla Concorrência Mínimo:30 temos Ampla Concorrência Máximo:37 temos Reserva de Vagas para PP 15%*:9 temos Reserva de Vagas para PP 27,2%*:16
-Para Cursos Ciências Econômicas (Integral) temos Total Vagas Regulares:70 temos Total Vagas VU:56 temos Ampla Concorrência Mínimo:37 temos Ampla Concorrência Máximo:45 temos Reserva de Vagas para PP 15%*:11 temos Reserva de Vagas para PP 27,2%*:19
-Para Cursos Ciências Econômicas (Noturno) temos Total Vagas Regulares:35 temos Total Vagas VU:28 temos Ampla Concorrência Mínimo:18 temos Ampla Concorrência Máximo:23 temos Reserva de Vagas para PP 15%*:5 temos Reserva de Vagas para PP 27,2%*:10
-Para Cursos Ciências Sociais (Integral) temos Total Vagas Regulares:55 temos Total Vagas VU:44 temos Ampla Concorrência Mínimo:29 temos Ampla Concorrência Máximo:36 temos Reserva de Vagas para PP 15%*:8 temos Reserva de Vagas para PP 27,2%*:15
-Para Cursos Ciências Sociais (Noturno) temos Total Vagas Regulares:55 temos Total Vagas VU:44 temos Ampla Concorrência Mínimo:29 temos Ampla Concorrência Máximo:36 temos Reserva de Vagas para PP 15%*:8 temos Reserva de Vagas para PP 27,2%*:15
-Para Cursos Comunicação Social-Midialogia (Integral) temos Total Vagas Regulares:30 temos Total Vagas VU:24 temos Ampla Concorrência Mínimo:16 temos Ampla Concorrência Máximo:19 temos Reserva de Vagas para PP 15%*:5 temos Reserva de Vagas para PP 27,2%*:8
-Para Cursos Curso 51: Engenharia Física/ Física/ Física Médica e Biomédica/ Matemática/ Matemática Aplicada e Computacional (Integral) temos Total Vagas Regulares:155 temos Total Vagas VU:109 temos Ampla Concorrência Mínimo:67 temos Ampla Concorrência Máximo:86 temos Reserva de Vagas para PP 15%*:23 temos Reserva de Vagas para PP 27,2%*:42
-Para Cursos Dança (Integral)** temos Total Vagas Regulares:25 temos Total Vagas VU:25 temos Ampla Concorrência Mínimo:16 temos Ampla Concorrência Máximo:19 temos Reserva de Vagas para PP 15%*:6 temos Reserva de Vagas para PP 27,2%*:9
-Para Cursos Educação Física (Integral) temos Total Vagas Regulares:50 temos Total Vagas VU:40 temos Ampla Concorrência Mínimo:26 temos Ampla Concorrência Máximo:32 temos Reserva de Vagas para PP 15%*:8 temos Reserva de Vagas para PP 27,2%*:14
-Para Cursos Educação Física (Noturno) temos Total Vagas Regulares:50 temos Total Vagas VU:40 temos Ampla Concorrência Mínimo:26 temos Ampla Concorrência Máximo:32 temos Reserva de Vagas para PP 15%*:8 temos Reserva de Vagas para PP 27,2%*:14
-Para Cursos Enfermagem (Integral) temos Total Vagas Regulares:40 temos Total Vagas VU:30 temos Ampla Concorrência Mínimo:19 temos Ampla Concorrência Máximo:24 temos Reserva de Vagas para PP 15%*:6 temos Reserva de Vagas para PP 27,2%*:11
-Para Cursos Engenharia Agrícola (Integral) temos Total Vagas Regulares:70 temos Total Vagas VU:56 temos Ampla Concorrência Mínimo:37 temos Ampla Concorrência Máximo:45 temos Reserva de Vagas para PP 15%*:11 temos Reserva de Vagas para PP 27,2%*:19
-Para Cursos Engenharia Ambiental (Noturno) temos Total Vagas Regulares:60 temos Total Vagas VU:44 temos Ampla Concorrência Mínimo:28 temos Ampla Concorrência Máximo:35 temos Reserva de Vagas para PP 15%*:9 temos Reserva de Vagas para PP 27,2%*:16
-Para Cursos Engenharia Civil (Integral) temos Total Vagas Regulares:80 temos Total Vagas VU:62 temos Ampla Concorrência Mínimo:40 temos Ampla Concorrência Máximo:50 temos Reserva de Vagas para PP 15%*:12 temos Reserva de Vagas para PP 27,2%*:22
-Para Cursos Engenharia de Alimentos (Integral) temos Total Vagas Regulares:80 temos Total Vagas VU:60 temos Ampla Concorrência Mínimo:38 temos Ampla Concorrência Máximo:48 temos Reserva de Vagas para PP 15%*:12 temos Reserva de Vagas para PP 27,2%*:22
-Para Cursos Engenharia de Alimentos (Noturno) temos Total Vagas Regulares:35 temos Total Vagas VU:24 temos Ampla Concorrência Mínimo:14 temos Ampla Concorrência Máximo:19 temos Reserva de Vagas para PP 15%*:5 temos Reserva de Vagas para PP 27,2%*:10
-Para Cursos Engenharia de Computação (Integral) temos Total Vagas Regulares:90 temos Total Vagas VU:63 temos Ampla Concorrência Mínimo:39 temos Ampla Concorrência Máximo:49 temos Reserva de Vagas para PP 15%*:14 temos Reserva de Vagas para PP 27,2%*:24
-Para Cursos Engenharia de Controle e Automação (Noturno) temos Total Vagas Regulares:50 temos Total Vagas VU:33 temos Ampla Concorrência Mínimo:19 temos Ampla Concorrência Máximo:25 temos Reserva de Vagas para PP 15%*:8 temos Reserva de Vagas para PP 27,2%*:14
-Para Cursos Engenharia de Manufatura (Integral) temos Total Vagas Regulares:60 temos Total Vagas VU:45 temos Ampla Concorrência Mínimo:29 temos Ampla Concorrência Máximo:36 temos Reserva de Vagas para PP 15%*:9 temos Reserva de Vagas para PP 27,2%*:16
-Para Cursos Engenharia de Produção (Integral) temos Total Vagas Regulares:60 temos Total Vagas VU:45 temos Ampla Concorrência Mínimo:29 temos Ampla Concorrência Máximo:36 temos Reserva de Vagas para PP 15%*:9 temos Reserva de Vagas para PP 27,2%*:16
-Para Cursos Engenharia de Telecomunicações (Integral) temos Total Vagas Regulares:55 temos Total Vagas VU:37 temos Ampla Concorrência Mínimo:22 temos Ampla Concorrência Máximo:29 temos Reserva de Vagas para PP 15%*:8 temos Reserva de Vagas para PP 27,2%*:15
-Para Cursos Engenharia de Transportes (Noturno) temos Total Vagas Regulares:55 temos Total Vagas VU:37 temos Ampla Concorrência Mínimo:22 temos Ampla Concorrência Máximo:29 temos Reserva de Vagas para PP 15%*:8 temos Reserva de Vagas para PP 27,2%*:15
-Para Cursos Engenharia Elétrica (Integral) temos Total Vagas Regulares:70 temos Total Vagas VU:49 temos Ampla Concorrência Mínimo:30 temos Ampla Concorrência Máximo:38 temos Reserva de Vagas para PP 15%*:11 temos Reserva de Vagas para PP 27,2%*:19
-Para Cursos Engenharia Elétrica (Noturno) temos Total Vagas Regulares:30 temos Total Vagas VU:21 temos Ampla Concorrência Mínimo:13 temos Ampla Concorrência Máximo:16 temos Reserva de Vagas para PP 15%*:5 temos Reserva de Vagas para PP 27,2%*:8
-Para Cursos Engenharia Mecânica (Integral) temos Total Vagas Regulares:140 temos Total Vagas VU:103 temos Ampla Concorrência Mínimo:65 temos Ampla Concorrência Máximo:82 temos Reserva de Vagas para PP 15%*:21 temos Reserva de Vagas para PP 27,2%*:38
-Para Cursos Engenharia Química (Integral) temos Total Vagas Regulares:60 temos Total Vagas VU:45 temos Ampla Concorrência Mínimo:29 temos Ampla Concorrência Máximo:36 temos Reserva de Vagas para PP 15%*:9 temos Reserva de Vagas para PP 27,2%*:16
-Para Cursos Engenharia Química (Noturno) temos Total Vagas Regulares:40 temos Total Vagas VU:29 temos Ampla Concorrência Mínimo:18 temos Ampla Concorrência Máximo:23 temos Reserva de Vagas para PP 15%*:6 temos Reserva de Vagas para PP 27,2%*:11
-Para Cursos Estatística (Integral) temos Total Vagas Regulares:70 temos Total Vagas VU:49 temos Ampla Concorrência Mínimo:30 temos Ampla Concorrência Máximo:38 temos Reserva de Vagas para PP 15%*:11 temos Reserva de Vagas para PP 27,2%*:19
-Para Cursos Estudos Literários (Integral) temos Total Vagas Regulares:20 temos Total Vagas VU:16 temos Ampla Concorrência Mínimo:11 temos Ampla Concorrência Máximo:13 temos Reserva de Vagas para PP 15%*:3 temos Reserva de Vagas para PP 27,2%*:5
-Para Cursos Farmácia (Integral) temos Total Vagas Regulares:40 temos Total Vagas VU:32 temos Ampla Concorrência Mínimo:21 temos Ampla Concorrência Máximo:26 temos Reserva de Vagas para PP 15%*:6 temos Reserva de Vagas para PP 27,2%*:11
-Para Cursos Filosofia (Integral) temos Total Vagas Regulares:30 temos Total Vagas VU:24 temos Ampla Concorrência Mínimo:16 temos Ampla Concorrência Máximo:19 temos Reserva de Vagas para PP 15%*:5 temos Reserva de Vagas para PP 27,2%*:8
-Para Cursos Física - Licenciatura (Noturno) temos Total Vagas Regulares:40 temos Total Vagas VU:28 temos Ampla Concorrência Mínimo:17 temos Ampla Concorrência Máximo:22 temos Reserva de Vagas para PP 15%*:6 temos Reserva de Vagas para PP 27,2%*:11
-Para Cursos Fonoaudiologia (Integral) temos Total Vagas Regulares:30 temos Total Vagas VU:22 temos Ampla Concorrência Mínimo:14 temos Ampla Concorrência Máximo:17 temos Reserva de Vagas para PP 15%*:5 temos Reserva de Vagas para PP 27,2%*:8
-Para Cursos Geografia (Integral) temos Total Vagas Regulares:20 temos Total Vagas VU:16 temos Ampla Concorrência Mínimo:11 temos Ampla Concorrência Máximo:13 temos Reserva de Vagas para PP 15%*:3 temos Reserva de Vagas para PP 27,2%*:5
-Para Cursos Geografia (Noturno) temos Total Vagas Regulares:30 temos Total Vagas VU:24 temos Ampla Concorrência Mínimo:16 temos Ampla Concorrência Máximo:19 temos Reserva de Vagas para PP 15%*:5 temos Reserva de Vagas para PP 27,2%*:8
-Para Cursos Geologia (Integral) temos Total Vagas Regulares:30 temos Total Vagas VU:24 temos Ampla Concorrência Mínimo:16 temos Ampla Concorrência Máximo:19 temos Reserva de Vagas para PP 15%*:5 temos Reserva de Vagas para PP 27,2%*:8
-Para Cursos História (Integral) temos Total Vagas Regulares:40 temos Total Vagas VU:32 temos Ampla Concorrência Mínimo:21 temos Ampla Concorrência Máximo:26 temos Reserva de Vagas para PP 15%*:6 temos Reserva de Vagas para PP 27,2%*:11
-Para Cursos Letras - Licenciatura (Integral) temos Total Vagas Regulares:30 temos Total Vagas VU:24 temos Ampla Concorrência Mínimo:16 temos Ampla Concorrência Máximo:19 temos Reserva de Vagas para PP 15%*:5 temos Reserva de Vagas para PP 27,2%*:8
-Para Cursos Letras - Licenciatura (Noturno) temos Total Vagas Regulares:30 temos Total Vagas VU:24 temos Ampla Concorrência Mínimo:16 temos Ampla Concorrência Máximo:19 temos Reserva de Vagas para PP 15%*:5 temos Reserva de Vagas para PP 27,2%*:8
-Para Cursos Licenciatura Integrada Química/Física (Noturno) temos Total Vagas Regulares:30 temos Total Vagas VU:24 temos Ampla Concorrência Mínimo:16 temos Ampla Concorrência Máximo:19 temos Reserva de Vagas para PP 15%*:5 temos Reserva de Vagas para PP 27,2%*:8
-Para Cursos Linguística (Integral) temos Total Vagas Regulares:20 temos Total Vagas VU:16 temos Ampla Concorrência Mínimo:11 temos Ampla Concorrência Máximo:13 temos Reserva de Vagas para PP 15%*:3 temos Reserva de Vagas para PP 27,2%*:5
-Para Cursos Matemática - Licenciatura (Noturno) temos Total Vagas Regulares:70 temos Total Vagas VU:49 temos Ampla Concorrência Mínimo:30 temos Ampla Concorrência Máximo:38 temos Reserva de Vagas para PP 15%*:11 temos Reserva de Vagas para PP 27,2%*:19
-Para Cursos Medicina (Integral) temos Total Vagas Regulares:110 temos Total Vagas VU:86 temos Ampla Concorrência Mínimo:56 temos Ampla Concorrência Máximo:69 temos Reserva de Vagas para PP 15%*:17 temos Reserva de Vagas para PP 27,2%*:30
-Para Cursos Música Erudita: Clarineta (Integral) temos Total Vagas Regulares:3 temos Total Vagas VU:3 temos Ampla Concorrência Mínimo:3 temos Ampla Concorrência Máximo:3 temos Reserva de Vagas para PP 15%*:0 temos Reserva de Vagas para PP 27,2%*:0
-Para Cursos Música Erudita: Contrabaixo (Integral) temos Total Vagas Regulares:2 temos Total Vagas VU:2 temos Ampla Concorrência Mínimo:2 temos Ampla Concorrência Máximo:2 temos Reserva de Vagas para PP 15%*:0 temos Reserva de Vagas para PP 27,2%*:0
-Para Cursos Música Erudita: Flauta (Integral) temos Total Vagas Regulares:3 temos Total Vagas VU:3 temos Ampla Concorrência Mínimo:3 temos Ampla Concorrência Máximo:3 temos Reserva de Vagas para PP 15%*:0 temos Reserva de Vagas para PP 27,2%*:0
-Para Cursos Música Erudita: Percussão (Integral) temos Total Vagas Regulares:2 temos Total Vagas VU:2 temos Ampla Concorrência Mínimo:2 temos Ampla Concorrência Máximo:2 temos Reserva de Vagas para PP 15%*:0 temos Reserva de Vagas para PP 27,2%*:0
-Para Cursos Música Erudita: Piano (Integral) temos Total Vagas Regulares:3 temos Total Vagas VU:3 temos Ampla Concorrência Mínimo:3 temos Ampla Concorrência Máximo:3 temos Reserva de Vagas para PP 15%*:0 temos Reserva de Vagas para PP 27,2%*:0
-Para Cursos Música Erudita: Trombone (Integral) temos Total Vagas Regulares:3 temos Total Vagas VU:3 temos Ampla Concorrência Mínimo:3 temos Ampla Concorrência Máximo:3 temos Reserva de Vagas para PP 15%*:0 temos Reserva de Vagas para PP 27,2%*:0
-Para Cursos Música Erudita: Trompete (Integral) temos Total Vagas Regulares:2 temos Total Vagas VU:2 temos Ampla Concorrência Mínimo:2 temos Ampla Concorrência Máximo:2 temos Reserva de Vagas para PP 15%*:0 temos Reserva de Vagas para PP 27,2%*:0
-Para Cursos Música Erudita: Viola (Integral) temos Total Vagas Regulares:2 temos Total Vagas VU:2 temos Ampla Concorrência Mínimo:2 temos Ampla Concorrência Máximo:2 temos Reserva de Vagas para PP 15%*:0 temos Reserva de Vagas para PP 27,2%*:0
-Para Cursos Música Erudita: Violão (Integral) temos Total Vagas Regulares:2 temos Total Vagas VU:2 temos Ampla Concorrência Mínimo:2 temos Ampla Concorrência Máximo:2 temos Reserva de Vagas para PP 15%*:0 temos Reserva de Vagas para PP 27,2%*:0
-Para Cursos Música Erudita: Violino (Integral) temos Total Vagas Regulares:2 temos Total Vagas VU:2 temos Ampla Concorrência Mínimo:2 temos Ampla Concorrência Máximo:2 temos Reserva de Vagas para PP 15%*:0 temos Reserva de Vagas para PP 27,2%*:0
-Para Cursos Música Erudita: Violoncelo (Integral) temos Total Vagas Regulares:2 temos Total Vagas VU:2 temos Ampla Concorrência Mínimo:2 temos Ampla Concorrência Máximo:2 temos Reserva de Vagas para PP 15%*:0 temos Reserva de Vagas para PP 27,2%*:0
-Para Cursos Música Erudita: Voz (Integral) temos Total Vagas Regulares:2 temos Total Vagas VU:2 temos Ampla Concorrência Mínimo:2 temos Ampla Concorrência Máximo:2 temos Reserva de Vagas para PP 15%*:0 temos Reserva de Vagas para PP 27,2%*:0
-Para Cursos Música Popular: Bateria (Integral) temos Total Vagas Regulares:2 temos Total Vagas VU:2 temos Ampla Concorrência Mínimo:2 temos Ampla Concorrência Máximo:2 temos Reserva de Vagas para PP 15%*:0 temos Reserva de Vagas para PP 27,2%*:0
-Para Cursos Música Popular: Contrabaixo (Integral) temos Total Vagas Regulares:2 temos Total Vagas VU:2 temos Ampla Concorrência Mínimo:2 temos Ampla Concorrência Máximo:2 temos Reserva de Vagas para PP 15%*:0 temos Reserva de Vagas para PP 27,2%*:0
-Para Cursos Música Popular: Guitarra (Integral) temos Total Vagas Regulares:2 temos Total Vagas VU:2 temos Ampla Concorrência Mínimo:2 temos Ampla Concorrência Máximo:2 temos Reserva de Vagas para PP 15%*:0 temos Reserva de Vagas para PP 27,2%*:0
-Para Cursos Música Popular: Piano (Integral) temos Total Vagas Regulares:2 temos Total Vagas VU:2 temos Ampla Concorrência Mínimo:2 temos Ampla Concorrência Máximo:2 temos Reserva de Vagas para PP 15%*:0 temos Reserva de Vagas para PP 27,2%*:0
-Para Cursos Música Popular: Saxofone (Integral) temos Total Vagas Regulares:2 temos Total Vagas VU:2 temos Ampla Concorrência Mínimo:2 temos Ampla Concorrência Máximo:2 temos Reserva de Vagas para PP 15%*:0 temos Reserva de Vagas para PP 27,2%*:0
-Para Cursos Música Popular: Violão (Integral) temos Total Vagas Regulares:2 temos Total Vagas VU:2 temos Ampla Concorrência Mínimo:2 temos Ampla Concorrência Máximo:2 temos Reserva de Vagas para PP 15%*:0 temos Reserva de Vagas para PP 27,2%*:0
-Para Cursos Música Popular: Voz (Integral) temos Total Vagas Regulares:2 temos Total Vagas VU:2 temos Ampla Concorrência Mínimo:2 temos Ampla Concorrência Máximo:2 temos Reserva de Vagas para PP 15%*:0 temos Reserva de Vagas para PP 27,2%*:0
-Para Cursos Música: Composição (Integral)** temos Total Vagas Regulares:5 temos Total Vagas VU:5 temos Ampla Concorrência Mínimo:3 temos Ampla Concorrência Máximo:4 temos Reserva de Vagas para PP 15%*:1 temos Reserva de Vagas para PP 27,2%*:2
-Para Cursos Música: Licenciatura (Integral)** temos Total Vagas Regulares:15 temos Total Vagas VU:13 temos Ampla Concorrência Mínimo:7 temos Ampla Concorrência Máximo:9 temos Reserva de Vagas para PP 15%*:4 temos Reserva de Vagas para PP 27,2%*:6
-Para Cursos Música: Regência (Integral) temos Total Vagas Regulares:3 temos Total Vagas VU:3 temos Ampla Concorrência Mínimo:3 temos Ampla Concorrência Máximo:3 temos Reserva de Vagas para PP 15%*:0 temos Reserva de Vagas para PP 27,2%*:0
-Para Cursos Nutrição (Integral) temos Total Vagas Regulares:60 temos Total Vagas VU:46 temos Ampla Concorrência Mínimo:30 temos Ampla Concorrência Máximo:37 temos Reserva de Vagas para PP 15%*:9 temos Reserva de Vagas para PP 27,2%*:16
-Para Cursos Odontologia (Integral) temos Total Vagas Regulares:80 temos Total Vagas VU:60 temos Ampla Concorrência Mínimo:38 temos Ampla Concorrência Máximo:48 temos Reserva de Vagas para PP 15%*:12 temos Reserva de Vagas para PP 27,2%*:22
-Para Cursos Pedagogia - Licenciatura (Integral) temos Total Vagas Regulares:45 temos Total Vagas VU:36 temos Ampla Concorrência Mínimo:24 temos Ampla Concorrência Máximo:29 temos Reserva de Vagas para PP 15%*:7 temos Reserva de Vagas para PP 27,2%*:12
-Para Cursos Pedagogia - Licenciatura (Noturno) temos Total Vagas Regulares:45 temos Total Vagas VU:36 temos Ampla Concorrência Mínimo:24 temos Ampla Concorrência Máximo:29 temos Reserva de Vagas para PP 15%*:7 temos Reserva de Vagas para PP 27,2%*:12
-Para Cursos Química (Integral) temos Total Vagas Regulares:70 temos Total Vagas VU:49 temos Ampla Concorrência Mínimo:30 temos Ampla Concorrência Máximo:38 temos Reserva de Vagas para PP 15%*:11 temos Reserva de Vagas para PP 27,2%*:19
-Para Cursos Química Tecnológica (Noturno) temos Total Vagas Regulares:40 temos Total Vagas VU:28 temos Ampla Concorrência Mínimo:17 temos Ampla Concorrência Máximo:22 temos Reserva de Vagas para PP 15%*:6 temos Reserva de Vagas para PP 27,2%*:11
-Para Cursos Sistemas de Informação (Integral) temos Total Vagas Regulares:50 temos Total Vagas VU:33 temos Ampla Concorrência Mínimo:19 temos Ampla Concorrência Máximo:25 temos Reserva de Vagas para PP 15%*:8 temos Reserva de Vagas para PP 27,2%*:14
-Para Cursos Tecnologia em Análise e Desenvolvimento de Sistemas (Noturno) temos Total Vagas Regulares:50 temos Total Vagas VU:33 temos Ampla Concorrência Mínimo:19 temos Ampla Concorrência Máximo:25 temos Reserva de Vagas para PP 15%*:8 temos Reserva de Vagas para PP 27,2%*:14
-Para Cursos Tecnologia em Saneamento Ambiental (Noturno) temos Total Vagas Regulares:70 temos Total Vagas VU:49 temos Ampla Concorrência Mínimo:30 temos Ampla Concorrência Máximo:38 temos Reserva de Vagas para PP 15%*:11 temos Reserva de Vagas para PP 27,2%*:19
-Para Cursos Total temos Total Vagas Regulares:3340 temos Total Vagas VU:2537 temos Ampla Concorrência Mínimo:1633 temos Ampla Concorrência Máximo:2021 temos Reserva de Vagas para PP 15%*:516 temos Reserva de Vagas para PP 27,2%*:904
-Para Gênero Poesia temos Autor:José Paulo Paes temos Obra:Prosas seguidas de odes mínimas temos Trechos / textos exigidos:Obra completa
-Para Gênero Poesia temos Autor:Cartola temos Obra:10 canções escolhidas temos Trechos / textos exigidos:Alvorada, As rosas não falam, Cordas de aço, Disfarça e chora, O inverno do meu tempo, O mundo é um moinho, Que é feito de você?, Sala de recepção, Silêncio de um cipreste, Sim
-Para Gênero Conto temos Autor:Caio Fernando Abreu temos Obra:Morangos mofados temos Trechos / textos exigidos:Diálogo, Além do Ponto, Terça-Feira Gorda, Pêra, uva ou maçã?, O dia em que Júpiter encontrou Saturno, Aqueles dois
-Para Gênero Conto temos Autor:Conceição Evaristo temos Obra:Olhos d'água temos Trechos / textos exigidos:Obra completa
-Para Gênero Romance temos Autor:Lima Barreto temos Obra:Vida e morte de M.J. Gonzaga de Sá temos Trechos / textos exigidos:Obra completa
-Para Gênero Romance temos Autor:Paulina Chiziane temos Obra:Niketche – uma História de Poligamia temos Trechos / textos exigidos:Obra completa
-Para Gênero Romance temos Autor:Machado de Assis temos Obra:Casa Velha temos Trechos / textos exigidos:Obra completa
-Para Gênero Romance temos Autor:Lewis Carrol temos Obra:Alice no país das maravilhas temos Trechos / textos exigidos:Selecionar qualquer tradução da obra, mas não adaptações.
-Para Gênero Entrevistas/Palestras temos Autor:Ailton Krenak temos Obra:A vida não é útil temos Trechos / textos exigidos:Obra completa
-Para Curso Administração (Noturno) (B) temos Prioritárias:LPL; MAT temos NMO:400 temos Peso 1:LPL; MAT temos Peso 2:HIS; GEO temos Peso 3:INTER
-Para Curso Administração Pública (Noturno) (B) temos Prioritárias:LPL; HIS temos NMO:400 temos Peso 1:LPL; MAT; HIS; GEO temos Peso 2:- temos Peso 3:INTER
-Para Curso Arquitetura e Urbanismo (Noturno) (A) temos Prioritárias:HE temos NMO:500 temos Peso 1:HE; MAT temos Peso 2:- temos Peso 3:LPL; INTER; HIS; GEO
-Para Curso Artes Cênicas (Integral) (A) temos Prioritárias:HE; LPL temos NMO:500 temos Peso 1:HE; LPL temos Peso 2:- temos Peso 3:MAT; HIST; GEO; INTER
-Para Curso Artes Visuais (Integral) (A) temos Prioritárias:HE; HIS temos NMO:500 temos Peso 1:HE; LPL; HIS; GEO temos Peso 2:INTER temos Peso 3:MAT
-Para Curso Ciências Econômicas (Integral) temos Prioritárias:MAT; HIS temos NMO:450 temos Peso 1:LPL; HIS; GEO temos Peso 2:MAT temos Peso 3:INTER
-Para Curso Ciências Econômicas (Noturno) temos Prioritárias:MAT; HIS temos NMO:450 temos Peso 1:LPL; HIS; GEO temos Peso 2:MAT temos Peso 3:INTER
-Para Curso Ciências Sociais (Integral) temos Prioritárias:LPL; HIS temos NMO:500 temos Peso 1:LPL; HIS; GEO temos Peso 2:MAT temos Peso 3:INTER
-Para Curso Ciências Sociais (Noturno) temos Prioritárias:LPL; HIS temos NMO:500 temos Peso 1:LPL; HIS; GEO temos Peso 2:MAT temos Peso 3:INTER
-Para Curso Comunicação Social - Midialogia (Integral) temos Prioritárias:HIS; MAT temos NMO:450 temos Peso 1:LPL; HIS; GEO temos Peso 2:MAT temos Peso 3:INTER
-Para Curso Dança (Integral) (A) temos Prioritárias:HE; LPL temos NMO:500 temos Peso 1:HE temos Peso 2:LPL temos Peso 3:MAT; HIST; GEO; INTER
-Para Curso Estudos Literários (Integral) temos Prioritárias:LPL; HIS temos NMO:500 temos Peso 1:LPL; HIS; GEO temos Peso 2:MAT temos Peso 3:INTER
-Para Curso Filosofia (Integral) temos Prioritárias:LPL temos NMO:500 temos Peso 1:LPL temos Peso 2:MAT; HIS temos Peso 3:GEO; INTER
-Para Curso Geografia (Integral) temos Prioritárias:LPL; GEO temos NMO:400 temos Peso 1:LPL; HIS; GEO temos Peso 2:MAT temos Peso 3:INTER
-Para Curso Geografia (Noturno) temos Prioritárias:LPL; GEO temos NMO:400 temos Peso 1:LPL; HIS; GEO temos Peso 2:MAT temos Peso 3:INTER
-Para Curso História (Integral) temos Prioritárias:LPL; HIS temos NMO:500 temos Peso 1:LPL; HIS; GEO temos Peso 2:MAT temos Peso 3:INTER
-Para Curso Licenciatura em Letras - Português (Integral) temos Prioritárias:LPL; HIS temos NMO:500 temos Peso 1:LPL; HIS; GEO temos Peso 2:MAT temos Peso 3:INTER
-Para Curso Licenciatura em Letras - Português (Noturno) temos Prioritárias:LPL; HIS temos NMO:500 temos Peso 1:LPL; HIS; GEO temos Peso 2:MAT temos Peso 3:INTER
-Para Curso Linguística (Integral) temos Prioritárias:LPL; HIS temos NMO:500 temos Peso 1:LPL; HIS; GEO temos Peso 2:MAT temos Peso 3:INTER
-Para Curso Música: Composição (Integral) (A) temos Prioritárias:HE temos NMO:- temos Peso 1:HE temos Peso 2:LPL temos Peso 3:MAT; HIST; GEO; INTER
-Para Curso Música Erudita: Instrumentos (Integral) (A) (D) temos Prioritárias:Música: Licenciatura (Integral) (A) temos NMO:Música Popular: Instrumentos (Integral) (A) (E) temos Peso 1:Música: Regência (Integral) (A) temos Peso 2:Licenciatura em Pedagogia (Integral) temos Peso 3:LPL; HIS
-Para Curso 400 temos Prioritárias:LPL; HIS; GEO temos NMO:MAT temos Peso 1:INTER temos Peso 2:Licenciatura em Pedagogia (Noturno) temos Peso 3:LPL; HIS
-Para Curso 400 temos Prioritárias:LPL; HIS; GEO temos NMO:MAT temos Peso 1:INTER temos Peso 2:Ciências Biológicas (Integral) temos Peso 3:QUI; BIO
-Para Curso 450 temos Prioritárias:BIO; INTER temos NMO:LPL; MAT; QUI temos Peso 1:- temos Peso 2:Ciências do Esporte (Integral) (B) temos Peso 3:LPL; BIO
-Para Curso 400 temos Prioritárias:- temos NMO:LPL; MAT; QUI; BIO temos Peso 1:INTER temos Peso 2:Educação Física (Integral) temos Peso 3:LPL; BIO
-Para Curso 450 temos Prioritárias:LPL; BIO temos NMO:INTER temos Peso 1:MAT; QUI temos Peso 2:Educação Física (Noturno) temos Peso 3:LPL; BIO
-Para Curso 450 temos Prioritárias:LPL; BIO temos NMO:INTER temos Peso 1:MAT; QUI temos Peso 2:Enfermagem (Integral) temos Peso 3:LPL; BIO
-Para Curso 450 temos Prioritárias:LPL; MAT; BIO temos NMO:QUI temos Peso 1:INTER temos Peso 2:Farmácia (Integral) temos Peso 3:QUI; BIO
-Para Curso 450 temos Prioritárias:LPL; MAT; QUI; BIO temos NMO:- temos Peso 1:INTER temos Peso 2:Fonoaudiologia (Integral) temos Peso 3:LPL; BIO
-Para Curso 450 temos Prioritárias:LPL; BIO temos NMO:MAT; QUI; INTER temos Peso 1:- temos Peso 2:Licenciatura em Ciências Biológicas (Noturno) temos Peso 3:QUI; BIO
-Para Curso 450 temos Prioritárias:BIO; INTER temos NMO:LPL; MAT; QUI temos Peso 1:- temos Peso 2:Medicina (Integral) temos Peso 3:LPL; BIO
-Para Curso 550 temos Prioritárias:LPL; BIO temos NMO:MAT; QUI; INTER temos Peso 1:- temos Peso 2:Nutrição (Integral) (B) temos Peso 3:LPL; BIO
-Para Curso 450 temos Prioritárias:LPL; BIO temos NMO:MAT; QUI; INTER temos Peso 1:- temos Peso 2:Odontologia (Integral) (F) temos Peso 3:QUI; BIO
-Para Curso 400 temos Prioritárias:LPL; BIO temos NMO:MAT; QUI temos Peso 1:INTER temos Peso 2:Ciência da Computação (Noturno) temos Peso 3:MAT
-Para Curso 500 temos Prioritárias:MAT temos NMO:LPL; FIS temos Peso 1:QUI; INTER temos Peso 2:Curso 51: Engenharia Física/Física/Física Médica e Biomédica/ Matemática/Matemática Aplicada e Computacional (Integral) (C) temos Peso 3:MAT; FIS
-Para Curso 450 temos Prioritárias:MAT; FIS temos NMO:LPL; QUI temos Peso 1:INTER temos Peso 2:Engenharia Agrícola (Integral) temos Peso 3:MAT; FIS
-Para Curso 450 temos Prioritárias:MAT; FIS temos NMO:LPL; QUI temos Peso 1:INTER temos Peso 2:Engenharia Ambiental (Noturno) (G) temos Peso 3:LPL; MAT
-Para Curso 500 temos Prioritárias:LPL; MAT; QUI; FIS temos NMO:- temos Peso 1:INTER temos Peso 2:Engenharia Civil (Integral) temos Peso 3:MAT
-Para Curso 500 temos Prioritárias:LPL; MAT; FIS temos NMO:QUI temos Peso 1:INTER temos Peso 2:Engenharia de Alimentos (Integral) temos Peso 3:LPL; MAT
-Para Curso 500 temos Prioritárias:LPL; MAT; QUI temos NMO:FIS temos Peso 1:INTER temos Peso 2:Engenharia de Alimentos (Noturno) temos Peso 3:LPL; MAT
-Para Curso 500 temos Prioritárias:LPL; MAT; QUI temos NMO:FIS temos Peso 1:INTER temos Peso 2:Engenharia de Computação (Integral) temos Peso 3:MAT
-Para Curso 550 temos Prioritárias:MAT temos NMO:LPL; FIS temos Peso 1:QUI; INTER temos Peso 2:Engenharia de Controle e Automação (Noturno) temos Peso 3:MAT; FIS
-Para Curso 500 temos Prioritárias:LPL; MAT; FIS temos NMO:QUI temos Peso 1:INTER temos Peso 2:Engenharia de Manufatura (Integral) (B) temos Peso 3:MAT; FIS
-Para Curso 450 temos Prioritárias:LPL; MAT; FIS; QUI temos NMO:- temos Peso 1:INTER temos Peso 2:Engenharia de Produção (Integral) (B) temos Peso 3:MAT; FIS
-Para Curso 450 temos Prioritárias:LPL; MAT; FIS; QUI temos NMO:- temos Peso 1:INTER temos Peso 2:Engenharia de Telecomunicações (Integral) temos Peso 3:MAT; FIS
-Para Curso 450 temos Prioritárias:LPL; MAT; FIS temos NMO:QUI temos Peso 1:INTER temos Peso 2:Engenharia de Transportes (Noturno) (G) temos Peso 3:MAT; FIS
-Para Curso 400 temos Prioritárias:MAT; FIS temos NMO:LPL; INTER; QUI temos Peso 1:- temos Peso 2:Engenharia Elétrica (Integral) temos Peso 3:MAT; FIS
-Para Curso 450 temos Prioritárias:MAT; FIS temos NMO:LPL temos Peso 1:QUI; INTER temos Peso 2:Engenharia Elétrica (Noturno) temos Peso 3:MAT; FIS
-Para Curso 450 temos Prioritárias:MAT; FIS temos NMO:LPL temos Peso 1:QUI; INTER temos Peso 2:Engenharia Mecânica (Integral) temos Peso 3:MAT; FIS
-Para Curso 500 temos Prioritárias:LPL; MAT; FIS temos NMO:QUI temos Peso 1:INTER temos Peso 2:Engenharia Química (Integral) temos Peso 3:MAT; FIS
-Para Curso 450 temos Prioritárias:LPL; MAT; FIS temos NMO:QUI temos Peso 1:INTER temos Peso 2:Engenharia Química (Noturno) temos Peso 3:MAT; FIS
-Para Curso 450 temos Prioritárias:LPL; MAT; FIS temos NMO:QUI temos Peso 1:INTER temos Peso 2:Estatística (Integral) temos Peso 3:LPL; MAT
-Para Curso 500 temos Prioritárias:LPL; MAT temos NMO:- temos Peso 1:FIS; QUI; INTER temos Peso 2:Geologia (Integral) temos Peso 3:MAT; QUI
-Para Curso 450 temos Prioritárias:LPL; MAT; FIS; QUI temos NMO:- temos Peso 1:INTER temos Peso 2:Licenciatura em Física (Noturno) temos Peso 3:MAT; FIS
-Para Curso 400 temos Prioritárias:MAT; FIS temos NMO:LPL; QUI temos Peso 1:INTER temos Peso 2:Licenciatura em Matemática (Noturno) temos Peso 3:MAT; FIS
-Para Curso 450 temos Prioritárias:MAT; FIS temos NMO:LPL temos Peso 1:QUI; INTER temos Peso 2:Licenciatura Integrada Química/Física (Noturno) temos Peso 3:LPL; MAT
-Para Curso 400 temos Prioritárias:- temos NMO:LPL; MAT; INTER temos Peso 1:QUI; FIS temos Peso 2:Química (Integral) temos Peso 3:QUI
-Para Curso 450 temos Prioritárias:LPL; MAT; FIS; QUI temos NMO:- temos Peso 1:INTER temos Peso 2:Química Tecnológica (Noturno) temos Peso 3:QUI
-Para Curso 450 temos Prioritárias:LPL; MAT; FIS; QUI temos NMO:- temos Peso 1:INTER temos Peso 2:Sistemas de Informação (Integral) (G) temos Peso 3:LPL; MAT
-Para Curso 400 temos Prioritárias:- temos NMO:LPL; MAT temos Peso 1:INTER; FIS; QUI temos Peso 2:Tecnologia em Análise e Desenvolvimento de Sistemas (Noturno) (G) temos Peso 3:LPL; MAT
-Para Curso 350 temos Prioritárias:- temos NMO:LPL; MAT temos Peso 1:INTER; FIS; QUI temos Peso 2:Tecnologia em Saneamento Ambiental (Noturno) (G) temos Peso 3:LPL; MAT
-Para Área Ciências Humanas/Artes temos Curso:Curso Treineiros Ciências Exatas/ Tecnológicas temos Prioritárias:- temos NMO:LPL temos Peso 3:MAT; FIS; QUI; HIST; GEO; BIO; INTER temos Peso 2:- temos Peso 1:-
-Para Área Ciências Biológicas/ Saúde temos Curso:Curso Treineiros Ciências Biológicas/ Saúde temos Prioritárias:- temos NMO:BIO temos Peso 3:LPL; MAT; FIS; QUI; HIST; GEO; INTER temos Peso 2:- temos Peso 1:-
-Para Área Ciências Exatas/ Tecnológicas temos Curso:Curso Treineiros Ciências Humanas/ Artes temos Prioritárias:- temos NMO:MAT temos Peso 3:LPL; MAT; FIS; QUI; HIST; GEO; BIO; INTER temos Peso 2:- temos Peso 1:-
-Para Curso Administração (Noturno) temos Área:Ciências Humanas/Artes
-Para Curso Administração Pública (Noturno) temos Área:Ciências Humanas/Artes
-Para Curso Arquitetura e Urbanismo (Noturno) temos Área:Ciências Humanas/Artes
-Para Curso Artes Cênicas (Integral) temos Área:Ciências Humanas/Artes
-Para Curso Artes Visuais (Integral) temos Área:Ciências Humanas/Artes
-Para Curso Comunicação Social - Midialogia (Integral) temos Área:Ciências Humanas/Artes
-Para Curso Ciências Econômicas (Integral) temos Área:Ciências Humanas/Artes
-Para Curso Ciências Econômicas (Noturno) temos Área:Ciências Humanas/Artes
-Para Curso Ciências Sociais (Integral) temos Área:Ciências Humanas/Artes
-Para Curso Ciências Sociais (Noturno) temos Área:Ciências Humanas/Artes
-Para Curso Dança (Integral) temos Área:Ciências Humanas/Artes
-Para Curso Estudos Literários (Integral) temos Área:Ciências Humanas/Artes
-Para Curso Filosofia (Integral) temos Área:Ciências Humanas/Artes
-Para Curso Geografia (Integral) temos Área:Ciências Humanas/Artes
-Para Curso Geografia (Noturno) temos Área:Ciências Humanas/Artes
-Para Curso História (Integral) temos Área:Ciências Humanas/Artes
-Para Curso Letras - Licenciatura (Integral) temos Área:Ciências Humanas/Artes
-Para Curso Letras - Licenciatura (Noturno) temos Área:Ciências Humanas/Artes
-Para Curso Linguística (Integral) temos Área:Ciências Humanas/Artes
-Para Curso Música (Integral) temos Área:Ciências Humanas/Artes
-Para Curso Pedagogia - Licenciatura (Integral) temos Área:Ciências Humanas/Artes
-Para Curso Pedagogia - Licenciatura (Noturno) temos Área:Ciências Humanas/Artes
-Para Curso Treineiros(as) de Ciências Humanas/Artes temos Área:Ciências Humanas/Artes
-Para Curso Ciências Biológicas (Integral) temos Área:Ciências Biológicas/Saúde
-Para Curso Ciências Biológicas - Licenciatura (Noturno) temos Área:Ciências Biológicas/Saúde
-Para Curso Ciências do Esporte (Integral) temos Área:Ciências Biológicas/Saúde
-Para Curso Educação Física (Integral) temos Área:Ciências Biológicas/Saúde
-Para Curso Educação Física (Noturno) temos Área:Ciências Biológicas/Saúde
-Para Curso Enfermagem (Integral) temos Área:Ciências Biológicas/Saúde
-Para Curso Farmácia (Integral) temos Área:Ciências Biológicas/Saúde
-Para Curso Fonoaudiologia (Integral) temos Área:Ciências Biológicas/Saúde
-Para Curso Medicina (Integral) temos Área:Ciências Biológicas/Saúde
-Para Curso Nutrição (Integral) temos Área:Ciências Biológicas/Saúde
-Para Curso Odontologia (Integral) temos Área:Ciências Biológicas/Saúde
-Para Curso Treineiros(as) de Ciências Biológicas/Saúde temos Área:Ciências Biológicas/Saúde
-Para Curso Ciência da Computação (Noturno) temos Área:Ciências Exatas/Tecnológicas
-Para Curso Curso S1: Engenharia Física/Física/Física Médica e Biomédica/Matemática/Matemática Aplicada e Computacional (Integral) temos Área:Ciências Exatas/Tecnológicas
-Para Curso Engenharia Agrícola (Integral) temos Área:Ciências Exatas/Tecnológicas
-Para Curso Engenharia Ambiental (Noturno) temos Área:Ciências Exatas/Tecnológicas
-Para Curso Engenharia Civil (Integral) temos Área:Ciências Exatas/Tecnológicas
-Para Curso Engenharia de Alimentos (Integral) temos Área:Ciências Exatas/Tecnológicas
-Para Curso Engenharia de Alimentos (Noturno) temos Área:Ciências Exatas/Tecnológicas
-Para Curso Engenharia de Computação (Integral) temos Área:Ciências Exatas/Tecnológicas
-Para Curso Engenharia de Controle e Automação (Noturno) temos Área:Ciências Exatas/Tecnológicas
-Para Curso Engenharia de Manufatura (Integral) temos Área:Ciências Exatas/Tecnológicas
-Para Curso Engenharia de Produção (Integral) temos Área:Ciências Exatas/Tecnológicas
-Para Curso Engenharia de Telecomunicações (Integral) temos Área:Ciências Exatas/Tecnológicas
-Para Curso Engenharia de Transportes (Noturno) temos Área:Ciências Exatas/Tecnológicas
-Para Curso Engenharia Elétrica (Integral) temos Área:Ciências Exatas/Tecnológicas
-Para Curso Engenharia Elétrica (Noturno) temos Área:Ciências Exatas/Tecnológicas
-Para Curso Engenharia Mecânica (Integral) temos Área:Ciências Exatas/Tecnológicas
-Para Curso Engenharia Química (Integral) temos Área:Ciências Exatas/Tecnológicas
-Para Curso Engenharia Química (Noturno) temos Área:Ciências Exatas/Tecnológicas
-Para Curso Estatística (Integral) temos Área:Ciências Exatas/Tecnológicas
-Para Curso Física - Licenciatura (Noturno) temos Área:Ciências Exatas/Tecnológicas
-Para Curso Geologia (Integral) temos Área:Ciências Exatas/Tecnológicas
-Para Curso Licenciatura Integrada Química/Física (Noturno) temos Área:Ciências Exatas/Tecnológicas
-Para Curso Matemática - Licenciatura (Noturno) temos Área:Ciências Exatas/Tecnológicas
-Para Curso Química (Integral) temos Área:Ciências Exatas/Tecnológicas
-Para Curso Química Tecnológica (Noturno) temos Área:Ciências Exatas/Tecnológicas
-Para Curso Sistemas de Informação (Integral) temos Área:Ciências Exatas/Tecnológicas
-Para Curso Tecnologia em Análise e Desenvolvimento de Sistemas (Noturno) temos Área:Ciências Exatas/Tecnológicas
-Para Curso Tecnologia em Saneamento Ambiental (Noturno) temos Área:Ciências Exatas/Tecnológicas
-Para Curso Treineiros(as) de Ciências Exatas/Tecnológicas temos Área:Ciências Exatas/Tecnológicas
+Para Cursos Administração (Noturno) o total vagas regulares é 180,  o total vagas VU é 143,  o mínimo número de vagas ampla concorrência é 94,  o máximo número de vagas ampla concorrência é 116,  o reserva de vagas para PP 15%* é 27,  o reserva de vagas para PP 27,2%* é 49, 
+Para Cursos Administração Pública (Noturno) o total vagas regulares é 60,  o total vagas VU é 47,  o mínimo número de vagas ampla concorrência é 31,  o máximo número de vagas ampla concorrência é 38,  o reserva de vagas para PP 15%* é 9,  o reserva de vagas para PP 27,2%* é 16, 
+Para Cursos Arquitetura e Urbanismo (Noturno) o total vagas regulares é 30,  o total vagas VU é 24,  o mínimo número de vagas ampla concorrência é 16,  o máximo número de vagas ampla concorrência é 19,  o reserva de vagas para PP 15%* é 5,  o reserva de vagas para PP 27,2%* é 8, 
+Para Cursos Artes Cênicas (Integral)** o total vagas regulares é 25,  o total vagas VU é 25,  o mínimo número de vagas ampla concorrência é 16,  o máximo número de vagas ampla concorrência é 19,  o reserva de vagas para PP 15%* é 6,  o reserva de vagas para PP 27,2%* é 9, 
+Para Cursos Artes Visuais (Integral)** o total vagas regulares é 30,  o total vagas VU é 30,  o mínimo número de vagas ampla concorrência é 19,  o máximo número de vagas ampla concorrência é 22,  o reserva de vagas para PP 15%* é 8,  o reserva de vagas para PP 27,2%* é 11, 
+Para Cursos Ciência da Computação (Noturno) o total vagas regulares é 50,  o total vagas VU é 40,  o mínimo número de vagas ampla concorrência é 26,  o máximo número de vagas ampla concorrência é 32,  o reserva de vagas para PP 15%* é 8,  o reserva de vagas para PP 27,2%* é 14, 
+Para Cursos Ciências Biológicas - Licenciatura (Noturno) o total vagas regulares é 45,  o total vagas VU é 33,  o mínimo número de vagas ampla concorrência é 21,  o máximo número de vagas ampla concorrência é 26,  o reserva de vagas para PP 15%* é 7,  o reserva de vagas para PP 27,2%* é 12, 
+Para Cursos Ciências Biológicas (Integral) o total vagas regulares é 45,  o total vagas VU é 33,  o mínimo número de vagas ampla concorrência é 21,  o máximo número de vagas ampla concorrência é 26,  o reserva de vagas para PP 15%* é 7,  o reserva de vagas para PP 27,2%* é 12, 
+Para Cursos Ciências do Esporte (Integral) o total vagas regulares é 60,  o total vagas VU é 46,  o mínimo número de vagas ampla concorrência é 30,  o máximo número de vagas ampla concorrência é 37,  o reserva de vagas para PP 15%* é 9,  o reserva de vagas para PP 27,2%* é 16, 
+Para Cursos Ciências Econômicas (Integral) o total vagas regulares é 70,  o total vagas VU é 56,  o mínimo número de vagas ampla concorrência é 37,  o máximo número de vagas ampla concorrência é 45,  o reserva de vagas para PP 15%* é 11,  o reserva de vagas para PP 27,2%* é 19, 
+Para Cursos Ciências Econômicas (Noturno) o total vagas regulares é 35,  o total vagas VU é 28,  o mínimo número de vagas ampla concorrência é 18,  o máximo número de vagas ampla concorrência é 23,  o reserva de vagas para PP 15%* é 5,  o reserva de vagas para PP 27,2%* é 10, 
+Para Cursos Ciências Sociais (Integral) o total vagas regulares é 55,  o total vagas VU é 44,  o mínimo número de vagas ampla concorrência é 29,  o máximo número de vagas ampla concorrência é 36,  o reserva de vagas para PP 15%* é 8,  o reserva de vagas para PP 27,2%* é 15, 
+Para Cursos Ciências Sociais (Noturno) o total vagas regulares é 55,  o total vagas VU é 44,  o mínimo número de vagas ampla concorrência é 29,  o máximo número de vagas ampla concorrência é 36,  o reserva de vagas para PP 15%* é 8,  o reserva de vagas para PP 27,2%* é 15, 
+Para Cursos Comunicação Social-Midialogia (Integral) o total vagas regulares é 30,  o total vagas VU é 24,  o mínimo número de vagas ampla concorrência é 16,  o máximo número de vagas ampla concorrência é 19,  o reserva de vagas para PP 15%* é 5,  o reserva de vagas para PP 27,2%* é 8, 
+Para Cursos Curso 51: Engenharia Física/ Física/ Física Médica e Biomédica/ Matemática/ Matemática Aplicada e Computacional (Integral) o total vagas regulares é 155,  o total vagas VU é 109,  o mínimo número de vagas ampla concorrência é 67,  o máximo número de vagas ampla concorrência é 86,  o reserva de vagas para PP 15%* é 23,  o reserva de vagas para PP 27,2%* é 42, 
+Para Cursos Dança (Integral)** o total vagas regulares é 25,  o total vagas VU é 25,  o mínimo número de vagas ampla concorrência é 16,  o máximo número de vagas ampla concorrência é 19,  o reserva de vagas para PP 15%* é 6,  o reserva de vagas para PP 27,2%* é 9, 
+Para Cursos Educação Física (Integral) o total vagas regulares é 50,  o total vagas VU é 40,  o mínimo número de vagas ampla concorrência é 26,  o máximo número de vagas ampla concorrência é 32,  o reserva de vagas para PP 15%* é 8,  o reserva de vagas para PP 27,2%* é 14, 
+Para Cursos Educação Física (Noturno) o total vagas regulares é 50,  o total vagas VU é 40,  o mínimo número de vagas ampla concorrência é 26,  o máximo número de vagas ampla concorrência é 32,  o reserva de vagas para PP 15%* é 8,  o reserva de vagas para PP 27,2%* é 14, 
+Para Cursos Enfermagem (Integral) o total vagas regulares é 40,  o total vagas VU é 30,  o mínimo número de vagas ampla concorrência é 19,  o máximo número de vagas ampla concorrência é 24,  o reserva de vagas para PP 15%* é 6,  o reserva de vagas para PP 27,2%* é 11, 
+Para Cursos Engenharia Agrícola (Integral) o total vagas regulares é 70,  o total vagas VU é 56,  o mínimo número de vagas ampla concorrência é 37,  o máximo número de vagas ampla concorrência é 45,  o reserva de vagas para PP 15%* é 11,  o reserva de vagas para PP 27,2%* é 19, 
+Para Cursos Engenharia Ambiental (Noturno) o total vagas regulares é 60,  o total vagas VU é 44,  o mínimo número de vagas ampla concorrência é 28,  o máximo número de vagas ampla concorrência é 35,  o reserva de vagas para PP 15%* é 9,  o reserva de vagas para PP 27,2%* é 16, 
+Para Cursos Engenharia Civil (Integral) o total vagas regulares é 80,  o total vagas VU é 62,  o mínimo número de vagas ampla concorrência é 40,  o máximo número de vagas ampla concorrência é 50,  o reserva de vagas para PP 15%* é 12,  o reserva de vagas para PP 27,2%* é 22, 
+Para Cursos Engenharia de Alimentos (Integral) o total vagas regulares é 80,  o total vagas VU é 60,  o mínimo número de vagas ampla concorrência é 38,  o máximo número de vagas ampla concorrência é 48,  o reserva de vagas para PP 15%* é 12,  o reserva de vagas para PP 27,2%* é 22, 
+Para Cursos Engenharia de Alimentos (Noturno) o total vagas regulares é 35,  o total vagas VU é 24,  o mínimo número de vagas ampla concorrência é 14,  o máximo número de vagas ampla concorrência é 19,  o reserva de vagas para PP 15%* é 5,  o reserva de vagas para PP 27,2%* é 10, 
+Para Cursos Engenharia de Computação (Integral) o total vagas regulares é 90,  o total vagas VU é 63,  o mínimo número de vagas ampla concorrência é 39,  o máximo número de vagas ampla concorrência é 49,  o reserva de vagas para PP 15%* é 14,  o reserva de vagas para PP 27,2%* é 24, 
+Para Cursos Engenharia de Controle e Automação (Noturno) o total vagas regulares é 50,  o total vagas VU é 33,  o mínimo número de vagas ampla concorrência é 19,  o máximo número de vagas ampla concorrência é 25,  o reserva de vagas para PP 15%* é 8,  o reserva de vagas para PP 27,2%* é 14, 
+Para Cursos Engenharia de Manufatura (Integral) o total vagas regulares é 60,  o total vagas VU é 45,  o mínimo número de vagas ampla concorrência é 29,  o máximo número de vagas ampla concorrência é 36,  o reserva de vagas para PP 15%* é 9,  o reserva de vagas para PP 27,2%* é 16, 
+Para Cursos Engenharia de Produção (Integral) o total vagas regulares é 60,  o total vagas VU é 45,  o mínimo número de vagas ampla concorrência é 29,  o máximo número de vagas ampla concorrência é 36,  o reserva de vagas para PP 15%* é 9,  o reserva de vagas para PP 27,2%* é 16, 
+Para Cursos Engenharia de Telecomunicações (Integral) o total vagas regulares é 55,  o total vagas VU é 37,  o mínimo número de vagas ampla concorrência é 22,  o máximo número de vagas ampla concorrência é 29,  o reserva de vagas para PP 15%* é 8,  o reserva de vagas para PP 27,2%* é 15, 
+Para Cursos Engenharia de Transportes (Noturno) o total vagas regulares é 55,  o total vagas VU é 37,  o mínimo número de vagas ampla concorrência é 22,  o máximo número de vagas ampla concorrência é 29,  o reserva de vagas para PP 15%* é 8,  o reserva de vagas para PP 27,2%* é 15, 
+Para Cursos Engenharia Elétrica (Integral) o total vagas regulares é 70,  o total vagas VU é 49,  o mínimo número de vagas ampla concorrência é 30,  o máximo número de vagas ampla concorrência é 38,  o reserva de vagas para PP 15%* é 11,  o reserva de vagas para PP 27,2%* é 19, 
+Para Cursos Engenharia Elétrica (Noturno) o total vagas regulares é 30,  o total vagas VU é 21,  o mínimo número de vagas ampla concorrência é 13,  o máximo número de vagas ampla concorrência é 16,  o reserva de vagas para PP 15%* é 5,  o reserva de vagas para PP 27,2%* é 8, 
+Para Cursos Engenharia Mecânica (Integral) o total vagas regulares é 140,  o total vagas VU é 103,  o mínimo número de vagas ampla concorrência é 65,  o máximo número de vagas ampla concorrência é 82,  o reserva de vagas para PP 15%* é 21,  o reserva de vagas para PP 27,2%* é 38, 
+Para Cursos Engenharia Química (Integral) o total vagas regulares é 60,  o total vagas VU é 45,  o mínimo número de vagas ampla concorrência é 29,  o máximo número de vagas ampla concorrência é 36,  o reserva de vagas para PP 15%* é 9,  o reserva de vagas para PP 27,2%* é 16, 
+Para Cursos Engenharia Química (Noturno) o total vagas regulares é 40,  o total vagas VU é 29,  o mínimo número de vagas ampla concorrência é 18,  o máximo número de vagas ampla concorrência é 23,  o reserva de vagas para PP 15%* é 6,  o reserva de vagas para PP 27,2%* é 11, 
+Para Cursos Estatística (Integral) o total vagas regulares é 70,  o total vagas VU é 49,  o mínimo número de vagas ampla concorrência é 30,  o máximo número de vagas ampla concorrência é 38,  o reserva de vagas para PP 15%* é 11,  o reserva de vagas para PP 27,2%* é 19, 
+Para Cursos Estudos Literários (Integral) o total vagas regulares é 20,  o total vagas VU é 16,  o mínimo número de vagas ampla concorrência é 11,  o máximo número de vagas ampla concorrência é 13,  o reserva de vagas para PP 15%* é 3,  o reserva de vagas para PP 27,2%* é 5, 
+Para Cursos Farmácia (Integral) o total vagas regulares é 40,  o total vagas VU é 32,  o mínimo número de vagas ampla concorrência é 21,  o máximo número de vagas ampla concorrência é 26,  o reserva de vagas para PP 15%* é 6,  o reserva de vagas para PP 27,2%* é 11, 
+Para Cursos Filosofia (Integral) o total vagas regulares é 30,  o total vagas VU é 24,  o mínimo número de vagas ampla concorrência é 16,  o máximo número de vagas ampla concorrência é 19,  o reserva de vagas para PP 15%* é 5,  o reserva de vagas para PP 27,2%* é 8, 
+Para Cursos Física - Licenciatura (Noturno) o total vagas regulares é 40,  o total vagas VU é 28,  o mínimo número de vagas ampla concorrência é 17,  o máximo número de vagas ampla concorrência é 22,  o reserva de vagas para PP 15%* é 6,  o reserva de vagas para PP 27,2%* é 11, 
+Para Cursos Fonoaudiologia (Integral) o total vagas regulares é 30,  o total vagas VU é 22,  o mínimo número de vagas ampla concorrência é 14,  o máximo número de vagas ampla concorrência é 17,  o reserva de vagas para PP 15%* é 5,  o reserva de vagas para PP 27,2%* é 8, 
+Para Cursos Geografia (Integral) o total vagas regulares é 20,  o total vagas VU é 16,  o mínimo número de vagas ampla concorrência é 11,  o máximo número de vagas ampla concorrência é 13,  o reserva de vagas para PP 15%* é 3,  o reserva de vagas para PP 27,2%* é 5, 
+Para Cursos Geografia (Noturno) o total vagas regulares é 30,  o total vagas VU é 24,  o mínimo número de vagas ampla concorrência é 16,  o máximo número de vagas ampla concorrência é 19,  o reserva de vagas para PP 15%* é 5,  o reserva de vagas para PP 27,2%* é 8, 
+Para Cursos Geologia (Integral) o total vagas regulares é 30,  o total vagas VU é 24,  o mínimo número de vagas ampla concorrência é 16,  o máximo número de vagas ampla concorrência é 19,  o reserva de vagas para PP 15%* é 5,  o reserva de vagas para PP 27,2%* é 8, 
+Para Cursos História (Integral) o total vagas regulares é 40,  o total vagas VU é 32,  o mínimo número de vagas ampla concorrência é 21,  o máximo número de vagas ampla concorrência é 26,  o reserva de vagas para PP 15%* é 6,  o reserva de vagas para PP 27,2%* é 11, 
+Para Cursos Letras - Licenciatura (Integral) o total vagas regulares é 30,  o total vagas VU é 24,  o mínimo número de vagas ampla concorrência é 16,  o máximo número de vagas ampla concorrência é 19,  o reserva de vagas para PP 15%* é 5,  o reserva de vagas para PP 27,2%* é 8, 
+Para Cursos Letras - Licenciatura (Noturno) o total vagas regulares é 30,  o total vagas VU é 24,  o mínimo número de vagas ampla concorrência é 16,  o máximo número de vagas ampla concorrência é 19,  o reserva de vagas para PP 15%* é 5,  o reserva de vagas para PP 27,2%* é 8, 
+Para Cursos Licenciatura Integrada Química/Física (Noturno) o total vagas regulares é 30,  o total vagas VU é 24,  o mínimo número de vagas ampla concorrência é 16,  o máximo número de vagas ampla concorrência é 19,  o reserva de vagas para PP 15%* é 5,  o reserva de vagas para PP 27,2%* é 8, 
+Para Cursos Linguística (Integral) o total vagas regulares é 20,  o total vagas VU é 16,  o mínimo número de vagas ampla concorrência é 11,  o máximo número de vagas ampla concorrência é 13,  o reserva de vagas para PP 15%* é 3,  o reserva de vagas para PP 27,2%* é 5, 
+Para Cursos Matemática - Licenciatura (Noturno) o total vagas regulares é 70,  o total vagas VU é 49,  o mínimo número de vagas ampla concorrência é 30,  o máximo número de vagas ampla concorrência é 38,  o reserva de vagas para PP 15%* é 11,  o reserva de vagas para PP 27,2%* é 19, 
+Para Cursos Medicina (Integral) o total vagas regulares é 110,  o total vagas VU é 86,  o mínimo número de vagas ampla concorrência é 56,  o máximo número de vagas ampla concorrência é 69,  o reserva de vagas para PP 15%* é 17,  o reserva de vagas para PP 27,2%* é 30, 
+Para Cursos Música Erudita: Clarineta (Integral) o total vagas regulares é 3,  o total vagas VU é 3,  o mínimo número de vagas ampla concorrência é 3,  o máximo número de vagas ampla concorrência é 3,  o reserva de vagas para PP 15%* é 0,  o reserva de vagas para PP 27,2%* é 0, 
+Para Cursos Música Erudita: Contrabaixo (Integral) o total vagas regulares é 2,  o total vagas VU é 2,  o mínimo número de vagas ampla concorrência é 2,  o máximo número de vagas ampla concorrência é 2,  o reserva de vagas para PP 15%* é 0,  o reserva de vagas para PP 27,2%* é 0, 
+Para Cursos Música Erudita: Flauta (Integral) o total vagas regulares é 3,  o total vagas VU é 3,  o mínimo número de vagas ampla concorrência é 3,  o máximo número de vagas ampla concorrência é 3,  o reserva de vagas para PP 15%* é 0,  o reserva de vagas para PP 27,2%* é 0, 
+Para Cursos Música Erudita: Percussão (Integral) o total vagas regulares é 2,  o total vagas VU é 2,  o mínimo número de vagas ampla concorrência é 2,  o máximo número de vagas ampla concorrência é 2,  o reserva de vagas para PP 15%* é 0,  o reserva de vagas para PP 27,2%* é 0, 
+Para Cursos Música Erudita: Piano (Integral) o total vagas regulares é 3,  o total vagas VU é 3,  o mínimo número de vagas ampla concorrência é 3,  o máximo número de vagas ampla concorrência é 3,  o reserva de vagas para PP 15%* é 0,  o reserva de vagas para PP 27,2%* é 0, 
+Para Cursos Música Erudita: Trombone (Integral) o total vagas regulares é 3,  o total vagas VU é 3,  o mínimo número de vagas ampla concorrência é 3,  o máximo número de vagas ampla concorrência é 3,  o reserva de vagas para PP 15%* é 0,  o reserva de vagas para PP 27,2%* é 0, 
+Para Cursos Música Erudita: Trompete (Integral) o total vagas regulares é 2,  o total vagas VU é 2,  o mínimo número de vagas ampla concorrência é 2,  o máximo número de vagas ampla concorrência é 2,  o reserva de vagas para PP 15%* é 0,  o reserva de vagas para PP 27,2%* é 0, 
+Para Cursos Música Erudita: Viola (Integral) o total vagas regulares é 2,  o total vagas VU é 2,  o mínimo número de vagas ampla concorrência é 2,  o máximo número de vagas ampla concorrência é 2,  o reserva de vagas para PP 15%* é 0,  o reserva de vagas para PP 27,2%* é 0, 
+Para Cursos Música Erudita: Violão (Integral) o total vagas regulares é 2,  o total vagas VU é 2,  o mínimo número de vagas ampla concorrência é 2,  o máximo número de vagas ampla concorrência é 2,  o reserva de vagas para PP 15%* é 0,  o reserva de vagas para PP 27,2%* é 0, 
+Para Cursos Música Erudita: Violino (Integral) o total vagas regulares é 2,  o total vagas VU é 2,  o mínimo número de vagas ampla concorrência é 2,  o máximo número de vagas ampla concorrência é 2,  o reserva de vagas para PP 15%* é 0,  o reserva de vagas para PP 27,2%* é 0, 
+Para Cursos Música Erudita: Violoncelo (Integral) o total vagas regulares é 2,  o total vagas VU é 2,  o mínimo número de vagas ampla concorrência é 2,  o máximo número de vagas ampla concorrência é 2,  o reserva de vagas para PP 15%* é 0,  o reserva de vagas para PP 27,2%* é 0, 
+Para Cursos Música Erudita: Voz (Integral) o total vagas regulares é 2,  o total vagas VU é 2,  o mínimo número de vagas ampla concorrência é 2,  o máximo número de vagas ampla concorrência é 2,  o reserva de vagas para PP 15%* é 0,  o reserva de vagas para PP 27,2%* é 0, 
+Para Cursos Música Popular: Bateria (Integral) o total vagas regulares é 2,  o total vagas VU é 2,  o mínimo número de vagas ampla concorrência é 2,  o máximo número de vagas ampla concorrência é 2,  o reserva de vagas para PP 15%* é 0,  o reserva de vagas para PP 27,2%* é 0, 
+Para Cursos Música Popular: Contrabaixo (Integral) o total vagas regulares é 2,  o total vagas VU é 2,  o mínimo número de vagas ampla concorrência é 2,  o máximo número de vagas ampla concorrência é 2,  o reserva de vagas para PP 15%* é 0,  o reserva de vagas para PP 27,2%* é 0, 
+Para Cursos Música Popular: Guitarra (Integral) o total vagas regulares é 2,  o total vagas VU é 2,  o mínimo número de vagas ampla concorrência é 2,  o máximo número de vagas ampla concorrência é 2,  o reserva de vagas para PP 15%* é 0,  o reserva de vagas para PP 27,2%* é 0, 
+Para Cursos Música Popular: Piano (Integral) o total vagas regulares é 2,  o total vagas VU é 2,  o mínimo número de vagas ampla concorrência é 2,  o máximo número de vagas ampla concorrência é 2,  o reserva de vagas para PP 15%* é 0,  o reserva de vagas para PP 27,2%* é 0, 
+Para Cursos Música Popular: Saxofone (Integral) o total vagas regulares é 2,  o total vagas VU é 2,  o mínimo número de vagas ampla concorrência é 2,  o máximo número de vagas ampla concorrência é 2,  o reserva de vagas para PP 15%* é 0,  o reserva de vagas para PP 27,2%* é 0, 
+Para Cursos Música Popular: Violão (Integral) o total vagas regulares é 2,  o total vagas VU é 2,  o mínimo número de vagas ampla concorrência é 2,  o máximo número de vagas ampla concorrência é 2,  o reserva de vagas para PP 15%* é 0,  o reserva de vagas para PP 27,2%* é 0, 
+Para Cursos Música Popular: Voz (Integral) o total vagas regulares é 2,  o total vagas VU é 2,  o mínimo número de vagas ampla concorrência é 2,  o máximo número de vagas ampla concorrência é 2,  o reserva de vagas para PP 15%* é 0,  o reserva de vagas para PP 27,2%* é 0, 
+Para Cursos Música: Composição (Integral)** o total vagas regulares é 5,  o total vagas VU é 5,  o mínimo número de vagas ampla concorrência é 3,  o máximo número de vagas ampla concorrência é 4,  o reserva de vagas para PP 15%* é 1,  o reserva de vagas para PP 27,2%* é 2, 
+Para Cursos Música: Licenciatura (Integral)** o total vagas regulares é 15,  o total vagas VU é 13,  o mínimo número de vagas ampla concorrência é 7,  o máximo número de vagas ampla concorrência é 9,  o reserva de vagas para PP 15%* é 4,  o reserva de vagas para PP 27,2%* é 6, 
+Para Cursos Música: Regência (Integral) o total vagas regulares é 3,  o total vagas VU é 3,  o mínimo número de vagas ampla concorrência é 3,  o máximo número de vagas ampla concorrência é 3,  o reserva de vagas para PP 15%* é 0,  o reserva de vagas para PP 27,2%* é 0, 
+Para Cursos Nutrição (Integral) o total vagas regulares é 60,  o total vagas VU é 46,  o mínimo número de vagas ampla concorrência é 30,  o máximo número de vagas ampla concorrência é 37,  o reserva de vagas para PP 15%* é 9,  o reserva de vagas para PP 27,2%* é 16, 
+Para Cursos Odontologia (Integral) o total vagas regulares é 80,  o total vagas VU é 60,  o mínimo número de vagas ampla concorrência é 38,  o máximo número de vagas ampla concorrência é 48,  o reserva de vagas para PP 15%* é 12,  o reserva de vagas para PP 27,2%* é 22, 
+Para Cursos Pedagogia - Licenciatura (Integral) o total vagas regulares é 45,  o total vagas VU é 36,  o mínimo número de vagas ampla concorrência é 24,  o máximo número de vagas ampla concorrência é 29,  o reserva de vagas para PP 15%* é 7,  o reserva de vagas para PP 27,2%* é 12, 
+Para Cursos Pedagogia - Licenciatura (Noturno) o total vagas regulares é 45,  o total vagas VU é 36,  o mínimo número de vagas ampla concorrência é 24,  o máximo número de vagas ampla concorrência é 29,  o reserva de vagas para PP 15%* é 7,  o reserva de vagas para PP 27,2%* é 12, 
+Para Cursos Química (Integral) o total vagas regulares é 70,  o total vagas VU é 49,  o mínimo número de vagas ampla concorrência é 30,  o máximo número de vagas ampla concorrência é 38,  o reserva de vagas para PP 15%* é 11,  o reserva de vagas para PP 27,2%* é 19, 
+Para Cursos Química Tecnológica (Noturno) o total vagas regulares é 40,  o total vagas VU é 28,  o mínimo número de vagas ampla concorrência é 17,  o máximo número de vagas ampla concorrência é 22,  o reserva de vagas para PP 15%* é 6,  o reserva de vagas para PP 27,2%* é 11, 
+Para Cursos Sistemas de Informação (Integral) o total vagas regulares é 50,  o total vagas VU é 33,  o mínimo número de vagas ampla concorrência é 19,  o máximo número de vagas ampla concorrência é 25,  o reserva de vagas para PP 15%* é 8,  o reserva de vagas para PP 27,2%* é 14, 
+Para Cursos Tecnologia em Análise e Desenvolvimento de Sistemas (Noturno) o total vagas regulares é 50,  o total vagas VU é 33,  o mínimo número de vagas ampla concorrência é 19,  o máximo número de vagas ampla concorrência é 25,  o reserva de vagas para PP 15%* é 8,  o reserva de vagas para PP 27,2%* é 14, 
+Para Cursos Tecnologia em Saneamento Ambiental (Noturno) o total vagas regulares é 70,  o total vagas VU é 49,  o mínimo número de vagas ampla concorrência é 30,  o máximo número de vagas ampla concorrência é 38,  o reserva de vagas para PP 15%* é 11,  o reserva de vagas para PP 27,2%* é 19, 
+Para Cursos Total o total vagas regulares é 3340,  o total vagas VU é 2537,  o mínimo número de vagas ampla concorrência é 1633,  o máximo número de vagas ampla concorrência é 2021,  o reserva de vagas para PP 15%* é 516,  o reserva de vagas para PP 27,2%* é 904, 
+Para Gênero Poesia o Autor é José Paulo Paes,  o Obra é Prosas seguidas de odes mínimas,  o Trechos / textos exigidos é Obra completa, 
+Para Gênero Poesia o Autor é Cartola,  o Obra é 10 canções escolhidas,  o Trechos / textos exigidos é Alvorada, As rosas não falam, Cordas de aço, Disfarça e chora, O inverno do meu tempo, O mundo é um moinho, Que é feito de você?, Sala de recepção, Silêncio de um cipreste, Sim, 
+Para Gênero Conto o Autor é Caio Fernando Abreu,  o Obra é Morangos mofados,  o Trechos / textos exigidos é Diálogo, Além do Ponto, Terça-Feira Gorda, Pêra, uva ou maçã?, O dia em que Júpiter encontrou Saturno, Aqueles dois, 
+Para Gênero Conto o Autor é Conceição Evaristo,  o Obra é Olhos d'água,  o Trechos / textos exigidos é Obra completa, 
+Para Gênero Romance o Autor é Lima Barreto,  o Obra é Vida e morte de M.J. Gonzaga de Sá,  o Trechos / textos exigidos é Obra completa, 
+Para Gênero Romance o Autor é Paulina Chiziane,  o Obra é Niketche – uma História de Poligamia,  o Trechos / textos exigidos é Obra completa, 
+Para Gênero Romance o Autor é Machado de Assis,  o Obra é Casa Velha,  o Trechos / textos exigidos é Obra completa, 
+Para Gênero Romance o Autor é Lewis Carrol,  o Obra é Alice no país das maravilhas,  o Trechos / textos exigidos é Selecionar qualquer tradução da obra, mas não adaptações., 
+Para Gênero Entrevistas/Palestras o Autor é Ailton Krenak,  o Obra é A vida não é útil,  o Trechos / textos exigidos é Obra completa, 
+Para Curso Administração (Noturno) (B) o Matérias prioritárias para o curso é LPL; MAT,  o NMO é 400,  o Matérias com peso 3 é LPL; MAT,  o Matérias com peso 2 é HIS; GEO,  o Matérias com peso 1 é INTER, 
+Para Curso Administração Pública (Noturno) (B) o Matérias prioritárias para o curso é LPL; HIS,  o NMO é 400,  o Matérias com peso 3 é LPL; MAT; HIS; GEO,  o Matérias com peso 2 é -,  o Matérias com peso 1 é INTER, 
+Para Curso Arquitetura e Urbanismo (Noturno) (A) o Matérias prioritárias para o curso é HE,  o NMO é 500,  o Matérias com peso 3 é HE; MAT,  o Matérias com peso 2 é -,  o Matérias com peso 1 é LPL; INTER; HIS; GEO, 
+Para Curso Artes Cênicas (Integral) (A) o Matérias prioritárias para o curso é HE; LPL,  o NMO é 500,  o Matérias com peso 3 é HE; LPL,  o Matérias com peso 2 é -,  o Matérias com peso 1 é MAT; HIST; GEO; INTER, 
+Para Curso Artes Visuais (Integral) (A) o Matérias prioritárias para o curso é HE; HIS,  o NMO é 500,  o Matérias com peso 3 é HE; LPL; HIS; GEO,  o Matérias com peso 2 é INTER,  o Matérias com peso 1 é MAT, 
+Para Curso Ciências Econômicas (Integral) o Matérias prioritárias para o curso é MAT; HIS,  o NMO é 450,  o Matérias com peso 3 é LPL; HIS; GEO,  o Matérias com peso 2 é MAT,  o Matérias com peso 1 é INTER, 
+Para Curso Ciências Econômicas (Noturno) o Matérias prioritárias para o curso é MAT; HIS,  o NMO é 450,  o Matérias com peso 3 é LPL; HIS; GEO,  o Matérias com peso 2 é MAT,  o Matérias com peso 1 é INTER, 
+Para Curso Ciências Sociais (Integral) o Matérias prioritárias para o curso é LPL; HIS,  o NMO é 500,  o Matérias com peso 3 é LPL; HIS; GEO,  o Matérias com peso 2 é MAT,  o Matérias com peso 1 é INTER, 
+Para Curso Ciências Sociais (Noturno) o Matérias prioritárias para o curso é LPL; HIS,  o NMO é 500,  o Matérias com peso 3 é LPL; HIS; GEO,  o Matérias com peso 2 é MAT,  o Matérias com peso 1 é INTER, 
+Para Curso Comunicação Social - Midialogia (Integral) o Matérias prioritárias para o curso é HIS; MAT,  o NMO é 450,  o Matérias com peso 3 é LPL; HIS; GEO,  o Matérias com peso 2 é MAT,  o Matérias com peso 1 é INTER, 
+Para Curso Dança (Integral) (A) o Matérias prioritárias para o curso é HE; LPL,  o NMO é 500,  o Matérias com peso 3 é HE,  o Matérias com peso 2 é LPL,  o Matérias com peso 1 é MAT; HIST; GEO; INTER, 
+Para Curso Estudos Literários (Integral) o Matérias prioritárias para o curso é LPL; HIS,  o NMO é 500,  o Matérias com peso 3 é LPL; HIS; GEO,  o Matérias com peso 2 é MAT,  o Matérias com peso 1 é INTER, 
+Para Curso Filosofia (Integral) o Matérias prioritárias para o curso é LPL,  o NMO é 500,  o Matérias com peso 3 é LPL,  o Matérias com peso 2 é MAT; HIS,  o Matérias com peso 1 é GEO; INTER, 
+Para Curso Geografia (Integral) o Matérias prioritárias para o curso é LPL; GEO,  o NMO é 400,  o Matérias com peso 3 é LPL; HIS; GEO,  o Matérias com peso 2 é MAT,  o Matérias com peso 1 é INTER, 
+Para Curso Geografia (Noturno) o Matérias prioritárias para o curso é LPL; GEO,  o NMO é 400,  o Matérias com peso 3 é LPL; HIS; GEO,  o Matérias com peso 2 é MAT,  o Matérias com peso 1 é INTER, 
+Para Curso História (Integral) o Matérias prioritárias para o curso é LPL; HIS,  o NMO é 500,  o Matérias com peso 3 é LPL; HIS; GEO,  o Matérias com peso 2 é MAT,  o Matérias com peso 1 é INTER, 
+Para Curso Licenciatura em Letras - Português (Integral) o Matérias prioritárias para o curso é LPL; HIS,  o NMO é 500,  o Matérias com peso 3 é LPL; HIS; GEO,  o Matérias com peso 2 é MAT,  o Matérias com peso 1 é INTER, 
+Para Curso Licenciatura em Letras - Português (Noturno) o Matérias prioritárias para o curso é LPL; HIS,  o NMO é 500,  o Matérias com peso 3 é LPL; HIS; GEO,  o Matérias com peso 2 é MAT,  o Matérias com peso 1 é INTER, 
+Para Curso Linguística (Integral) o Matérias prioritárias para o curso é LPL; HIS,  o NMO é 500,  o Matérias com peso 3 é LPL; HIS; GEO,  o Matérias com peso 2 é MAT,  o Matérias com peso 1 é INTER, 
+Para Curso Música: Composição (Integral) (A) o Matérias prioritárias para o curso é HE,  o NMO é -,  o Matérias com peso 3 é HE,  o Matérias com peso 2 é LPL,  o Matérias com peso 1 é MAT; HIST; GEO; INTER, 
+Para Curso Música Erudita: Instrumentos (Integral) (A) (D) o Matérias prioritárias para o curso é HE,  o NMO é -,  o Matérias com peso 3 é HE,  o Matérias com peso 2 é LPL,  o Matérias com peso 1 é MAT; HIST; GEO; INTER, 
+Para Curso Música: Licenciatura (Integral) (A) o Matérias prioritárias para o curso é HE,  o NMO é -,  o Matérias com peso 3 é HE,  o Matérias com peso 2 é LPL,  o Matérias com peso 1 é MAT; HIST; GEO; INTER, 
+Para Curso Música Popular: Instrumentos (Integral) (A) (E) o Matérias prioritárias para o curso é HE,  o NMO é -,  o Matérias com peso 3 é HE,  o Matérias com peso 2 é LPL,  o Matérias com peso 1 é MAT; HIST; GEO; INTER, 
+Para Curso Música: Regência (Integral) (A) o Matérias prioritárias para o curso é HE,  o NMO é -,  o Matérias com peso 3 é HE,  o Matérias com peso 2 é LPL,  o Matérias com peso 1 é MAT; HIST; GEO; INTER, 
+Para Curso Licenciatura em Pedagogia (Integral) o Matérias prioritárias para o curso é LPL; HIS,  o NMO é 400,  o Matérias com peso 3 é LPL; HIS; GEO,  o Matérias com peso 2 é MAT,  o Matérias com peso 1 é INTER, 
+Para Curso Licenciatura em Pedagogia (Noturno) o Matérias prioritárias para o curso é LPL; HIS,  o NMO é 400,  o Matérias com peso 3 é LPL; HIS; GEO,  o Matérias com peso 2 é MAT,  o Matérias com peso 1 é INTER, 
+Para Curso Ciências Biológicas (Integral) o Matérias prioritárias para o curso é QUI; BIO,  o NMO é 450,  o Matérias com peso 3 é BIO; INTER,  o Matérias com peso 2 é LPL; MAT; QUI,  o Matérias com peso 1 é -, 
+Para Curso Ciências do Esporte (Integral) (B) o Matérias prioritárias para o curso é LPL; BIO,  o NMO é 400,  o Matérias com peso 3 é -,  o Matérias com peso 2 é LPL; MAT; QUI; BIO,  o Matérias com peso 1 é INTER, 
+Para Curso Educação Física (Integral) o Matérias prioritárias para o curso é LPL; BIO,  o NMO é 450,  o Matérias com peso 3 é LPL; BIO,  o Matérias com peso 2 é INTER,  o Matérias com peso 1 é MAT; QUI, 
+Para Curso Educação Física (Noturno) o Matérias prioritárias para o curso é LPL; BIO,  o NMO é 450,  o Matérias com peso 3 é LPL; BIO,  o Matérias com peso 2 é INTER,  o Matérias com peso 1 é MAT; QUI, 
+Para Curso Enfermagem (Integral) o Matérias prioritárias para o curso é LPL; BIO,  o NMO é 450,  o Matérias com peso 3 é LPL; MAT; BIO,  o Matérias com peso 2 é QUI,  o Matérias com peso 1 é INTER, 
+Para Curso Farmácia (Integral) o Matérias prioritárias para o curso é QUI; BIO,  o NMO é 450,  o Matérias com peso 3 é LPL; MAT; QUI; BIO,  o Matérias com peso 2 é -,  o Matérias com peso 1 é INTER, 
+Para Curso Fonoaudiologia (Integral) o Matérias prioritárias para o curso é LPL; BIO,  o NMO é 450,  o Matérias com peso 3 é LPL; BIO,  o Matérias com peso 2 é MAT; QUI; INTER,  o Matérias com peso 1 é -, 
+Para Curso Licenciatura em Ciências Biológicas (Noturno) o Matérias prioritárias para o curso é QUI; BIO,  o NMO é 450,  o Matérias com peso 3 é BIO; INTER,  o Matérias com peso 2 é LPL; MAT; QUI,  o Matérias com peso 1 é -, 
+Para Curso Medicina (Integral) o Matérias prioritárias para o curso é LPL; BIO,  o NMO é 550,  o Matérias com peso 3 é LPL; BIO,  o Matérias com peso 2 é MAT; QUI; INTER,  o Matérias com peso 1 é -, 
+Para Curso Nutrição (Integral) (B) o Matérias prioritárias para o curso é LPL; BIO,  o NMO é 450,  o Matérias com peso 3 é LPL; BIO,  o Matérias com peso 2 é MAT; QUI; INTER,  o Matérias com peso 1 é -, 
+Para Curso Odontologia (Integral) (F) o Matérias prioritárias para o curso é QUI; BIO,  o NMO é 400,  o Matérias com peso 3 é LPL; BIO,  o Matérias com peso 2 é MAT; QUI,  o Matérias com peso 1 é INTER, 
+Para Curso Ciência da Computação (Noturno) o Matérias prioritárias para o curso é MAT,  o NMO é 500,  o Matérias com peso 3 é MAT,  o Matérias com peso 2 é LPL; FIS,  o Matérias com peso 1 é QUI; INTER, 
+Para Curso Curso 51: Engenharia Física/Física/Física Médica e Biomédica/ Matemática/Matemática Aplicada e Computacional (Integral) (C) o Matérias prioritárias para o curso é MAT; FIS,  o NMO é 450,  o Matérias com peso 3 é MAT; FIS,  o Matérias com peso 2 é LPL; QUI,  o Matérias com peso 1 é INTER, 
+Para Curso Engenharia Agrícola (Integral) o Matérias prioritárias para o curso é MAT; FIS,  o NMO é 450,  o Matérias com peso 3 é MAT; FIS,  o Matérias com peso 2 é LPL; QUI,  o Matérias com peso 1 é INTER, 
+Para Curso Engenharia Ambiental (Noturno) (G) o Matérias prioritárias para o curso é LPL; MAT,  o NMO é 500,  o Matérias com peso 3 é LPL; MAT; QUI; FIS,  o Matérias com peso 2 é -,  o Matérias com peso 1 é INTER, 
+Para Curso Engenharia Civil (Integral) o Matérias prioritárias para o curso é MAT,  o NMO é 500,  o Matérias com peso 3 é LPL; MAT; FIS,  o Matérias com peso 2 é QUI,  o Matérias com peso 1 é INTER, 
+Para Curso Engenharia de Alimentos (Integral) o Matérias prioritárias para o curso é LPL; MAT,  o NMO é 500,  o Matérias com peso 3 é LPL; MAT; QUI,  o Matérias com peso 2 é FIS,  o Matérias com peso 1 é INTER, 
+Para Curso Engenharia de Alimentos (Noturno) o Matérias prioritárias para o curso é LPL; MAT,  o NMO é 500,  o Matérias com peso 3 é LPL; MAT; QUI,  o Matérias com peso 2 é FIS,  o Matérias com peso 1 é INTER, 
+Para Curso Engenharia de Computação (Integral) o Matérias prioritárias para o curso é MAT,  o NMO é 550,  o Matérias com peso 3 é MAT,  o Matérias com peso 2 é LPL; FIS,  o Matérias com peso 1 é QUI; INTER, 
+Para Curso Engenharia de Controle e Automação (Noturno) o Matérias prioritárias para o curso é MAT; FIS,  o NMO é 500,  o Matérias com peso 3 é LPL; MAT; FIS,  o Matérias com peso 2 é QUI,  o Matérias com peso 1 é INTER, 
+Para Curso Engenharia de Manufatura (Integral) (B) o Matérias prioritárias para o curso é MAT; FIS,  o NMO é 450,  o Matérias com peso 3 é LPL; MAT; FIS; QUI,  o Matérias com peso 2 é -,  o Matérias com peso 1 é INTER, 
+Para Curso Engenharia de Produção (Integral) (B) o Matérias prioritárias para o curso é MAT; FIS,  o NMO é 450,  o Matérias com peso 3 é LPL; MAT; FIS; QUI,  o Matérias com peso 2 é -,  o Matérias com peso 1 é INTER, 
+Para Curso Engenharia de Telecomunicações (Integral) o Matérias prioritárias para o curso é MAT; FIS,  o NMO é 450,  o Matérias com peso 3 é LPL; MAT; FIS,  o Matérias com peso 2 é QUI,  o Matérias com peso 1 é INTER, 
+Para Curso Engenharia de Transportes (Noturno) (G) o Matérias prioritárias para o curso é MAT; FIS,  o NMO é 400,  o Matérias com peso 3 é MAT; FIS,  o Matérias com peso 2 é LPL; INTER; QUI,  o Matérias com peso 1 é -, 
+Para Curso Engenharia Elétrica (Integral) o Matérias prioritárias para o curso é MAT; FIS,  o NMO é 450,  o Matérias com peso 3 é MAT; FIS,  o Matérias com peso 2 é LPL,  o Matérias com peso 1 é QUI; INTER, 
+Para Curso Engenharia Elétrica (Noturno) o Matérias prioritárias para o curso é MAT; FIS,  o NMO é 450,  o Matérias com peso 3 é MAT; FIS,  o Matérias com peso 2 é LPL,  o Matérias com peso 1 é QUI; INTER, 
+Para Curso Engenharia Mecânica (Integral) o Matérias prioritárias para o curso é MAT; FIS,  o NMO é 500,  o Matérias com peso 3 é LPL; MAT; FIS,  o Matérias com peso 2 é QUI,  o Matérias com peso 1 é INTER, 
+Para Curso Engenharia Química (Integral) o Matérias prioritárias para o curso é MAT; FIS,  o NMO é 450,  o Matérias com peso 3 é LPL; MAT; FIS,  o Matérias com peso 2 é QUI,  o Matérias com peso 1 é INTER, 
+Para Curso Engenharia Química (Noturno) o Matérias prioritárias para o curso é MAT; FIS,  o NMO é 450,  o Matérias com peso 3 é LPL; MAT; FIS,  o Matérias com peso 2 é QUI,  o Matérias com peso 1 é INTER, 
+Para Curso Estatística (Integral) o Matérias prioritárias para o curso é LPL; MAT,  o NMO é 500,  o Matérias com peso 3 é LPL; MAT,  o Matérias com peso 2 é -,  o Matérias com peso 1 é FIS; QUI; INTER, 
+Para Curso Geologia (Integral) o Matérias prioritárias para o curso é MAT; QUI,  o NMO é 450,  o Matérias com peso 3 é LPL; MAT; FIS; QUI,  o Matérias com peso 2 é -,  o Matérias com peso 1 é INTER, 
+Para Curso Licenciatura em Física (Noturno) o Matérias prioritárias para o curso é MAT; FIS,  o NMO é 400,  o Matérias com peso 3 é MAT; FIS,  o Matérias com peso 2 é LPL; QUI,  o Matérias com peso 1 é INTER, 
+Para Curso Licenciatura em Matemática (Noturno) o Matérias prioritárias para o curso é MAT; FIS,  o NMO é 450,  o Matérias com peso 3 é MAT; FIS,  o Matérias com peso 2 é LPL,  o Matérias com peso 1 é QUI; INTER, 
+Para Curso Licenciatura Integrada Química/Física (Noturno) o Matérias prioritárias para o curso é LPL; MAT,  o NMO é 400,  o Matérias com peso 3 é -,  o Matérias com peso 2 é LPL; MAT; INTER,  o Matérias com peso 1 é QUI; FIS, 
+Para Curso Química (Integral) o Matérias prioritárias para o curso é QUI,  o NMO é 450,  o Matérias com peso 3 é LPL; MAT; FIS; QUI,  o Matérias com peso 2 é -,  o Matérias com peso 1 é INTER, 
+Para Curso Química Tecnológica (Noturno) o Matérias prioritárias para o curso é QUI,  o NMO é 450,  o Matérias com peso 3 é LPL; MAT; FIS; QUI,  o Matérias com peso 2 é -,  o Matérias com peso 1 é INTER, 
+Para Curso Sistemas de Informação (Integral) (G) o Matérias prioritárias para o curso é LPL; MAT,  o NMO é 400,  o Matérias com peso 3 é -,  o Matérias com peso 2 é LPL; MAT,  o Matérias com peso 1 é INTER; FIS; QUI, 
+Para Curso Tecnologia em Análise e Desenvolvimento de Sistemas (Noturno) (G) o Matérias prioritárias para o curso é LPL; MAT,  o NMO é 350,  o Matérias com peso 3 é -,  o Matérias com peso 2 é LPL; MAT,  o Matérias com peso 1 é INTER; FIS; QUI, 
+Para Curso Tecnologia em Saneamento Ambiental (Noturno) (G) o Matérias prioritárias para o curso é LPL; MAT,  o NMO é 350,  o Matérias com peso 3 é LPL; MAT; QUI,  o Matérias com peso 2 é FIS,  o Matérias com peso 1 é INTER, 
+Para Área Ciências Humanas/Artes o Curso é Curso Treineiros Ciências Exatas/ Tecnológicas,  o Prioritárias é -,  o NMO é LPL,  o Peso 3 é MAT; FIS; QUI; HIST; GEO; BIO; INTER,  o Peso 2 é -,  o Peso 1 é -, 
+Para Área Ciências Biológicas/ Saúde o Curso é Curso Treineiros Ciências Biológicas/ Saúde,  o Prioritárias é -,  o NMO é BIO,  o Peso 3 é LPL; MAT; FIS; QUI; HIST; GEO; INTER,  o Peso 2 é -,  o Peso 1 é -, 
+Para Área Ciências Exatas/ Tecnológicas o Curso é Curso Treineiros Ciências Humanas/ Artes,  o Prioritárias é -,  o NMO é MAT,  o Peso 3 é LPL; MAT; FIS; QUI; HIST; GEO; BIO; INTER,  o Peso 2 é -,  o Peso 1 é -, 
+Para Curso Administração (Noturno) o Área é Ciências Humanas/Artes, 
+Para Curso Administração Pública (Noturno) o Área é Ciências Humanas/Artes, 
+Para Curso Arquitetura e Urbanismo (Noturno) o Área é Ciências Humanas/Artes, 
+Para Curso Artes Cênicas (Integral) o Área é Ciências Humanas/Artes, 
+Para Curso Artes Visuais (Integral) o Área é Ciências Humanas/Artes, 
+Para Curso Comunicação Social - Midialogia (Integral) o Área é Ciências Humanas/Artes, 
+Para Curso Ciências Econômicas (Integral) o Área é Ciências Humanas/Artes, 
+Para Curso Ciências Econômicas (Noturno) o Área é Ciências Humanas/Artes, 
+Para Curso Ciências Sociais (Integral) o Área é Ciências Humanas/Artes, 
+Para Curso Ciências Sociais (Noturno) o Área é Ciências Humanas/Artes, 
+Para Curso Dança (Integral) o Área é Ciências Humanas/Artes, 
+Para Curso Estudos Literários (Integral) o Área é Ciências Humanas/Artes, 
+Para Curso Filosofia (Integral) o Área é Ciências Humanas/Artes, 
+Para Curso Geografia (Integral) o Área é Ciências Humanas/Artes, 
+Para Curso Geografia (Noturno) o Área é Ciências Humanas/Artes, 
+Para Curso História (Integral) o Área é Ciências Humanas/Artes, 
+Para Curso Letras - Licenciatura (Integral) o Área é Ciências Humanas/Artes, 
+Para Curso Letras - Licenciatura (Noturno) o Área é Ciências Humanas/Artes, 
+Para Curso Linguística (Integral) o Área é Ciências Humanas/Artes, 
+Para Curso Música (Integral) o Área é Ciências Humanas/Artes, 
+Para Curso Pedagogia - Licenciatura (Integral) o Área é Ciências Humanas/Artes, 
+Para Curso Pedagogia - Licenciatura (Noturno) o Área é Ciências Humanas/Artes, 
+Para Curso Treineiros(as) de Ciências Humanas/Artes o Área é Ciências Humanas/Artes, 
+Para Curso Ciências Biológicas (Integral) o Área é Ciências Biológicas/Saúde, 
+Para Curso Ciências Biológicas - Licenciatura (Noturno) o Área é Ciências Biológicas/Saúde, 
+Para Curso Ciências do Esporte (Integral) o Área é Ciências Biológicas/Saúde, 
+Para Curso Educação Física (Integral) o Área é Ciências Biológicas/Saúde, 
+Para Curso Educação Física (Noturno) o Área é Ciências Biológicas/Saúde, 
+Para Curso Enfermagem (Integral) o Área é Ciências Biológicas/Saúde, 
+Para Curso Farmácia (Integral) o Área é Ciências Biológicas/Saúde, 
+Para Curso Fonoaudiologia (Integral) o Área é Ciências Biológicas/Saúde, 
+Para Curso Medicina (Integral) o Área é Ciências Biológicas/Saúde, 
+Para Curso Nutrição (Integral) o Área é Ciências Biológicas/Saúde, 
+Para Curso Odontologia (Integral) o Área é Ciências Biológicas/Saúde, 
+Para Curso Treineiros(as) de Ciências Biológicas/Saúde o Área é Ciências Biológicas/Saúde, 
+Para Curso Ciência da Computação (Noturno) o Área é Ciências Exatas/Tecnológicas, 
+Para Curso Curso S1: Engenharia Física/Física/Física Médica e Biomédica/Matemática/Matemática Aplicada e Computacional (Integral) o Área é Ciências Exatas/Tecnológicas, 
+Para Curso Engenharia Agrícola (Integral) o Área é Ciências Exatas/Tecnológicas, 
+Para Curso Engenharia Ambiental (Noturno) o Área é Ciências Exatas/Tecnológicas, 
+Para Curso Engenharia Civil (Integral) o Área é Ciências Exatas/Tecnológicas, 
+Para Curso Engenharia de Alimentos (Integral) o Área é Ciências Exatas/Tecnológicas, 
+Para Curso Engenharia de Alimentos (Noturno) o Área é Ciências Exatas/Tecnológicas, 
+Para Curso Engenharia de Computação (Integral) o Área é Ciências Exatas/Tecnológicas, 
+Para Curso Engenharia de Controle e Automação (Noturno) o Área é Ciências Exatas/Tecnológicas, 
+Para Curso Engenharia de Manufatura (Integral) o Área é Ciências Exatas/Tecnológicas, 
+Para Curso Engenharia de Produção (Integral) o Área é Ciências Exatas/Tecnológicas, 
+Para Curso Engenharia de Telecomunicações (Integral) o Área é Ciências Exatas/Tecnológicas, 
+Para Curso Engenharia de Transportes (Noturno) o Área é Ciências Exatas/Tecnológicas, 
+Para Curso Engenharia Elétrica (Integral) o Área é Ciências Exatas/Tecnológicas, 
+Para Curso Engenharia Elétrica (Noturno) o Área é Ciências Exatas/Tecnológicas, 
+Para Curso Engenharia Mecânica (Integral) o Área é Ciências Exatas/Tecnológicas, 
+Para Curso Engenharia Química (Integral) o Área é Ciências Exatas/Tecnológicas, 
+Para Curso Engenharia Química (Noturno) o Área é Ciências Exatas/Tecnológicas, 
+Para Curso Estatística (Integral) o Área é Ciências Exatas/Tecnológicas, 
+Para Curso Física - Licenciatura (Noturno) o Área é Ciências Exatas/Tecnológicas, 
+Para Curso Geologia (Integral) o Área é Ciências Exatas/Tecnológicas, 
+Para Curso Licenciatura Integrada Química/Física (Noturno) o Área é Ciências Exatas/Tecnológicas, 
+Para Curso Matemática - Licenciatura (Noturno) o Área é Ciências Exatas/Tecnológicas, 
+Para Curso Química (Integral) o Área é Ciências Exatas/Tecnológicas, 
+Para Curso Química Tecnológica (Noturno) o Área é Ciências Exatas/Tecnológicas, 
+Para Curso Sistemas de Informação (Integral) o Área é Ciências Exatas/Tecnológicas, 
+Para Curso Tecnologia em Análise e Desenvolvimento de Sistemas (Noturno) o Área é Ciências Exatas/Tecnológicas, 
+Para Curso Tecnologia em Saneamento Ambiental (Noturno) o Área é Ciências Exatas/Tecnológicas, 
+Para Curso Treineiros(as) de Ciências Exatas/Tecnológicas o Área é Ciências Exatas/Tecnológicas, 

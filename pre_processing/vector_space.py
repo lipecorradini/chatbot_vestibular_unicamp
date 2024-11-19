@@ -91,9 +91,9 @@ def add_embeddings_to_faiss(vector_store, documents, model_name="all-MiniLM-L6-v
 
 def main():
     # Define file paths
-    text_input_file = "./data/text/extracted_text.txt"
-    tables_input_file = "./data/text/tables.txt"
-    faiss_index_path = "./data/faiss_index"
+    text_input_file = "../data/text/extracted_text.txt"
+    tables_input_file = "../data/text/tables.txt"
+    faiss_index_path = "../data/faiss_index"
     
     # Step 1: Split the main text into chunks
     print("Splitting main text into chunks...")

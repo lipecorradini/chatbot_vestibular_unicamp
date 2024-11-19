@@ -104,7 +104,7 @@ if __name__ == "__main__":
     vector_store = load_faiss_vector_store("./data/faiss_index")
     
     # Example query
-    user_query = "Quais obras do gênero poesia tenho que ler?"
+    user_query = "Quantas vagas existem para o curso de Administração na modalidade ampla concorrência?"
     
     # Retrieve relevant chunks
     relevant_chunks = retrieve_relevant_chunks(user_query, vector_store, top_k=5)
