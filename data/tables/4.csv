@@ -1,0 +1,62 @@
+Curso,Prioritárias,NMO,Peso 1,Peso 2,Peso 3
+Administração (Noturno) (B),LPL; MAT,400,LPL; MAT,HIS; GEO,INTER
+Administração Pública (Noturno) (B),LPL; HIS,400,LPL; MAT; HIS; GEO,-,INTER
+Arquitetura e Urbanismo (Noturno) (A),HE,500,HE; MAT,-,LPL; INTER; HIS; GEO
+Artes Cênicas (Integral) (A),HE; LPL,500,HE; LPL,-,MAT; HIST; GEO; INTER
+Artes Visuais (Integral) (A),HE; HIS,500,HE; LPL; HIS; GEO,INTER,MAT
+Ciências Econômicas (Integral),MAT; HIS,450,LPL; HIS; GEO,MAT,INTER
+Ciências Econômicas (Noturno),MAT; HIS,450,LPL; HIS; GEO,MAT,INTER
+Ciências Sociais (Integral),LPL; HIS,500,LPL; HIS; GEO,MAT,INTER
+Ciências Sociais (Noturno),LPL; HIS,500,LPL; HIS; GEO,MAT,INTER
+Comunicação Social - Midialogia (Integral),HIS; MAT,450,LPL; HIS; GEO,MAT,INTER
+Dança (Integral) (A),HE; LPL,500,HE,LPL,MAT; HIST; GEO; INTER
+Estudos Literários (Integral),LPL; HIS,500,LPL; HIS; GEO,MAT,INTER
+Filosofia (Integral),LPL,500,LPL,MAT; HIS,GEO; INTER
+Geografia (Integral),LPL; GEO,400,LPL; HIS; GEO,MAT,INTER
+Geografia (Noturno),LPL; GEO,400,LPL; HIS; GEO,MAT,INTER
+História (Integral),LPL; HIS,500,LPL; HIS; GEO,MAT,INTER
+Licenciatura em Letras - Português (Integral),LPL; HIS,500,LPL; HIS; GEO,MAT,INTER
+Licenciatura em Letras - Português (Noturno),LPL; HIS,500,LPL; HIS; GEO,MAT,INTER
+Linguística (Integral),LPL; HIS,500,LPL; HIS; GEO,MAT,INTER
+Música: Composição (Integral) (A),HE,-,HE,LPL,MAT; HIST; GEO; INTER
+Música Erudita: Instrumentos (Integral) (A) (D),Música: Licenciatura (Integral) (A),Música Popular: Instrumentos (Integral) (A) (E),Música: Regência (Integral) (A),Licenciatura em Pedagogia (Integral),LPL; HIS
+400,LPL; HIS; GEO,MAT,INTER,Licenciatura em Pedagogia (Noturno),LPL; HIS
+400,LPL; HIS; GEO,MAT,INTER,Ciências Biológicas (Integral),QUI; BIO
+450,BIO; INTER,LPL; MAT; QUI,-,Ciências do Esporte (Integral) (B),LPL; BIO
+400,-,LPL; MAT; QUI; BIO,INTER,Educação Física (Integral),LPL; BIO
+450,LPL; BIO,INTER,MAT; QUI,Educação Física (Noturno),LPL; BIO
+450,LPL; BIO,INTER,MAT; QUI,Enfermagem (Integral),LPL; BIO
+450,LPL; MAT; BIO,QUI,INTER,Farmácia (Integral),QUI; BIO
+450,LPL; MAT; QUI; BIO,-,INTER,Fonoaudiologia (Integral),LPL; BIO
+450,LPL; BIO,MAT; QUI; INTER,-,Licenciatura em Ciências Biológicas (Noturno),QUI; BIO
+450,BIO; INTER,LPL; MAT; QUI,-,Medicina (Integral),LPL; BIO
+550,LPL; BIO,MAT; QUI; INTER,-,Nutrição (Integral) (B),LPL; BIO
+450,LPL; BIO,MAT; QUI; INTER,-,Odontologia (Integral) (F),QUI; BIO
+400,LPL; BIO,MAT; QUI,INTER,Ciência da Computação (Noturno),MAT
+500,MAT,LPL; FIS,QUI; INTER,Curso 51: Engenharia Física/Física/Física Médica e Biomédica/ Matemática/Matemática Aplicada e Computacional (Integral) (C),MAT; FIS
+450,MAT; FIS,LPL; QUI,INTER,Engenharia Agrícola (Integral),MAT; FIS
+450,MAT; FIS,LPL; QUI,INTER,Engenharia Ambiental (Noturno) (G),LPL; MAT
+500,LPL; MAT; QUI; FIS,-,INTER,Engenharia Civil (Integral),MAT
+500,LPL; MAT; FIS,QUI,INTER,Engenharia de Alimentos (Integral),LPL; MAT
+500,LPL; MAT; QUI,FIS,INTER,Engenharia de Alimentos (Noturno),LPL; MAT
+500,LPL; MAT; QUI,FIS,INTER,Engenharia de Computação (Integral),MAT
+550,MAT,LPL; FIS,QUI; INTER,Engenharia de Controle e Automação (Noturno),MAT; FIS
+500,LPL; MAT; FIS,QUI,INTER,Engenharia de Manufatura (Integral) (B),MAT; FIS
+450,LPL; MAT; FIS; QUI,-,INTER,Engenharia de Produção (Integral) (B),MAT; FIS
+450,LPL; MAT; FIS; QUI,-,INTER,Engenharia de Telecomunicações (Integral),MAT; FIS
+450,LPL; MAT; FIS,QUI,INTER,Engenharia de Transportes (Noturno) (G),MAT; FIS
+400,MAT; FIS,LPL; INTER; QUI,-,Engenharia Elétrica (Integral),MAT; FIS
+450,MAT; FIS,LPL,QUI; INTER,Engenharia Elétrica (Noturno),MAT; FIS
+450,MAT; FIS,LPL,QUI; INTER,Engenharia Mecânica (Integral),MAT; FIS
+500,LPL; MAT; FIS,QUI,INTER,Engenharia Química (Integral),MAT; FIS
+450,LPL; MAT; FIS,QUI,INTER,Engenharia Química (Noturno),MAT; FIS
+450,LPL; MAT; FIS,QUI,INTER,Estatística (Integral),LPL; MAT
+500,LPL; MAT,-,FIS; QUI; INTER,Geologia (Integral),MAT; QUI
+450,LPL; MAT; FIS; QUI,-,INTER,Licenciatura em Física (Noturno),MAT; FIS
+400,MAT; FIS,LPL; QUI,INTER,Licenciatura em Matemática (Noturno),MAT; FIS
+450,MAT; FIS,LPL,QUI; INTER,Licenciatura Integrada Química/Física (Noturno),LPL; MAT
+400,-,LPL; MAT; INTER,QUI; FIS,Química (Integral),QUI
+450,LPL; MAT; FIS; QUI,-,INTER,Química Tecnológica (Noturno),QUI
+450,LPL; MAT; FIS; QUI,-,INTER,Sistemas de Informação (Integral) (G),LPL; MAT
+400,-,LPL; MAT,INTER; FIS; QUI,Tecnologia em Análise e Desenvolvimento de Sistemas (Noturno) (G),LPL; MAT
+350,-,LPL; MAT,INTER; FIS; QUI,Tecnologia em Saneamento Ambiental (Noturno) (G),LPL; MAT

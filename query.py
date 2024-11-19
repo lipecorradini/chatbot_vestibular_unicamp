@@ -29,7 +29,7 @@ def load_faiss_vector_store(index_path, model_name="all-MiniLM-L6-v2"):
     return vector_store
 
 
-def retrieve_relevant_chunks(query, vector_store, top_k=5):
+def retrieve_relevant_chunks(query, vector_store, top_k=10):
     """
     Retrieves the top-K most relevant text chunks for a given query.
 
@@ -104,14 +104,18 @@ if __name__ == "__main__":
     vector_store = load_faiss_vector_store("./data/faiss_index")
     
     # Example query
-    user_query = "Como funciona a prova de habilidades específicas?"
+    user_query = "Quais obras do gênero poesia tenho que ler?"
     
     # Retrieve relevant chunks
     relevant_chunks = retrieve_relevant_chunks(user_query, vector_store, top_k=5)
     
-    # print("Retrieved Chunks:")
-    # for i, doc in enumerate(relevant_chunks, 1):
-        # print(f"\nChunk {i}:\n{doc.page_content}")
+    print("------------------------")
+    print("Retrieved Chunks:")
+    for i, doc in enumerate(relevant_chunks, 1):
+        print(f"\nChunk {i}:\n{doc.page_content}")
+        print("----------------------")
+
+    print("-----------RESPOSTA GERADA-----------")
     
     # Generate response using Groq API
     response = generate_response(relevant_chunks, user_query)
