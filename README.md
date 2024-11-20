@@ -2,6 +2,7 @@
 
 Esse projeto foi desenvolvido como uma das etapas do proceso de estágio na [Neuralmind](https://neuralmind.ai/en/home-en/). O objetivo do projeto foi desenvolver um chatbot que, utilizando Retrieval-Augmented Generation (RAG), consiga responder dúvidas acerca da [Resolução GR-029/2024](https://www.pg.unicamp.br/norma/31879/0), documento contendo informações gerais acerca do vestibular. 
 
+
 ## Uso
 
 O deploy do chatbot foi realizado utilizando o streamlit, e está disponível para ser testado em https://chatbotunicamp2025.streamlit.app/
@@ -22,6 +23,7 @@ cd app
 streamlit run main.py
  ```
 ---
+
 
 ## Estrutura de arquivos
 O desenvolvimento da aplicação foi baseado em 4 diretórios principais:
@@ -49,12 +51,12 @@ O desenvolvimento da aplicação foi baseado em 4 diretórios principais:
 ├── requirements.txt
 ```
 
+
 ## Pipeline
 
 #### 1. Coleta e Processamento de Dados
 Como etapa inicial do desenvolvimento do projeto, foi necessário obter os dados relacionados à Resolução. Para isso, utilizamos a biblioteca **requests** para realizar as requisições *HTTP*, e a biblioteca **Beautiful Soup** para analisar os elementos *HTML*. Essa análise foi especialmente relevante no tratamento de tabelas, onde o Beautiful Soup permitiu separar as tabelas do texto original para processamento posterior.
 Durante o processamento das tabelas, muitas delas apresentavam características que dificultavam sua interpretação, como células mescladas nos cabeçalhos. Para contornar essas limitações, convertemo-las em arquivos ```.csv``` com o auxílio do *ChatGPT*. Em seguida, transformamos os dados em texto corrido e armazenamos os resultados em um arquivo ```.txt```.
-
 
 #### 2. Criação do Índice de Busca 
 A separação do texto em chunks foi realizada por meio de duas abordagens distintas: uma aplicada ao texto completo e outra dedicada às tabelas extraídas. Para definir os chunks, utilizamos o **Recursive Character Text Splitter**, do **LangChain**. No caso das tabelas, cada linha foi tratada como um chunk individual.
