@@ -4,7 +4,6 @@
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.vectorstores import FAISS
 from groq import Groq
-import os
 
 def load_faiss_vector_store(index_path, model_name="all-MiniLM-L6-v2"):
     """
@@ -67,7 +66,7 @@ def generate_response(retrieved_chunks, user_query, model_name="llama3-groq-70b-
     messages = [
         {
             "role": "system",
-            "content": "Considere a conversa, o contexto e a pergunta dada para dar uma resposta. Caso você não saiba uma resposta, fale 'Me desculpe, mas não tenho uma resposta para esta pergunta' em vez de tentar gerar uma resposta imprecisa. Responda a pergunta passo-a-passo."
+            "content": "Considere a conversa, o contexto e a pergunta dada para dar uma resposta. Caso você não saiba uma resposta, fale 'Me desculpe, mas não tenho uma resposta para esta pergunta' em vez de tentar gerar uma resposta imprecisa. Responda apenas o que foi perguntado de maneira sucinta."
         },
         {
             "role": "system",
@@ -90,35 +89,9 @@ def generate_response(retrieved_chunks, user_query, model_name="llama3-groq-70b-
         stop=None,
     )
 
-    print('-----------------------------')
-
     generated_response = ''
     for chunk in completion:
         generated_response += (chunk.choices[0].delta.content or "")
 
     return generated_response
 
-
-if __name__ == "__main__":
-    # Load the FAISS vector store
-    vector_store = load_faiss_vector_store("./data/faiss_index")
-    
-    # Example query
-    user_query = "Quantas vagas existem para o curso de Administração na modalidade ampla concorrência?"
-    
-    # Retrieve relevant chunks
-    relevant_chunks = retrieve_relevant_chunks(user_query, vector_store, top_k=5)
-    
-    print("------------------------")
-    print("Retrieved Chunks:")
-    for i, doc in enumerate(relevant_chunks, 1):
-        print(f"\nChunk {i}:\n{doc.page_content}")
-        print("----------------------")
-
-    print("-----------RESPOSTA GERADA-----------")
-    
-    # Generate response using Groq API
-    response = generate_response(relevant_chunks, user_query)
-    
-    print("\nGenerated Response:")
-    print(response)

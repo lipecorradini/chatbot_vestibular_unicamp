@@ -84,7 +84,7 @@ Para Cursos Total o total vagas regulares é 3340,  o total vagas VU é 2537,  o
 Para Gênero Poesia o Autor é José Paulo Paes,  o Obra é Prosas seguidas de odes mínimas,  o Trechos / textos exigidos é Obra completa, 
 Para Gênero Poesia o Autor é Cartola,  o Obra é 10 canções escolhidas,  o Trechos / textos exigidos é Alvorada, As rosas não falam, Cordas de aço, Disfarça e chora, O inverno do meu tempo, O mundo é um moinho, Que é feito de você?, Sala de recepção, Silêncio de um cipreste, Sim, 
 Para Gênero Conto o Autor é Caio Fernando Abreu,  o Obra é Morangos mofados,  o Trechos / textos exigidos é Diálogo, Além do Ponto, Terça-Feira Gorda, Pêra, uva ou maçã?, O dia em que Júpiter encontrou Saturno, Aqueles dois, 
-Para Gênero Conto o Autor é Conceição Evaristo,  o Obra é Olhos d'água,  o Trechos / textos exigidos é Obra completa, 
+Para Gênero Conto o Autor é Conceição Evaristo,  o Obra é Olhos d água,  o Trechos / textos exigidos é Obra completa, 
 Para Gênero Romance o Autor é Lima Barreto,  o Obra é Vida e morte de M.J. Gonzaga de Sá,  o Trechos / textos exigidos é Obra completa, 
 Para Gênero Romance o Autor é Paulina Chiziane,  o Obra é Niketche – uma História de Poligamia,  o Trechos / textos exigidos é Obra completa, 
 Para Gênero Romance o Autor é Machado de Assis,  o Obra é Casa Velha,  o Trechos / textos exigidos é Obra completa, 

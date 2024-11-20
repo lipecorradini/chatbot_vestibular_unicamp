@@ -69,26 +69,6 @@ def generate_embeddings_huggingface(documents, model_name="all-MiniLM-L6-v2"):
     
     return vector_store
 
-def add_embeddings_to_faiss(vector_store, documents, model_name="all-MiniLM-L6-v2"):
-    """
-    Adds new documents to an existing FAISS vector store.
-    
-    Args:
-        vector_store (FAISS): Existing FAISS vector store.
-        documents (List[Document]): List of new LangChain Document objects to add.
-        model_name (str): Hugging Face model name for embeddings.
-    
-    Returns:
-        FAISS: Updated FAISS vector store with new embeddings.
-    """
-    # Initialize the Hugging Face embeddings model
-    embeddings = HuggingFaceEmbeddings(model_name=model_name)
-    
-    # Add documents to the existing vector store
-    vector_store.add_documents(documents, embeddings)
-    
-    return vector_store
-
 def main():
     # Define file paths
     text_input_file = "../data/text/extracted_text.txt"

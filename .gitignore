@@ -6,3 +6,4 @@ lib
 share
 lib64
 etc
+.gitignore
