@@ -2,6 +2,12 @@ import streamlit as st
 import os
 from query import load_faiss_vector_store, retrieve_relevant_chunks, generate_response
 
+import logging
+
+# Configurar logging
+logging.basicConfig(level=logging.INFO)
+
+
 def main():
     st.set_page_config(page_title="Chatbot Vestibular Unicamp 2025", layout="wide") 
     
