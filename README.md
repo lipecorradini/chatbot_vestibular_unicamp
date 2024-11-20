@@ -1,14 +1,28 @@
 # Chatbot para auxiliar alunos com perguntas em relação ao vestibular da Unicamp 2025
 
-Esse projeto foi desenvolvido como uma das etapas do proceso de estágio na Neuralmind. O objetivo do projeto foi desenvolver um chatbot que, utilizando Retrieval-Augmented Generation (RAG), consiga responder dúvidas acerca da [Resolução GR-029/2024](https://www.pg.unicamp.br/norma/31879/0), documento contendo informações gerais acerca do vestibular. 
+Esse projeto foi desenvolvido como uma das etapas do proceso de estágio na [Neuralmind](https://neuralmind.ai/en/home-en/). O objetivo do projeto foi desenvolver um chatbot que, utilizando Retrieval-Augmented Generation (RAG), consiga responder dúvidas acerca da [Resolução GR-029/2024](https://www.pg.unicamp.br/norma/31879/0), documento contendo informações gerais acerca do vestibular. 
 
 ---
 
 ## Uso
 
-O chatbot está disponível em 
-[Inserir link do Deploy quando tiver terminado]()
+O deploy do chatbot foi realizado utilizando o streamlit, e está disponível para ser testado em https://chatbotunicamp2025.streamlit.app/
 
+![](data/images/streamlit.png)
+
+Para o uso local, basta executar:
+
+```python
+ pip install requirements.txt
+```
+
+```python
+cd app
+ ```
+
+```python
+streamlit run main.py
+ ```
 ---
 
 ## Estrutura de arquivos
@@ -25,6 +39,7 @@ O desenvolvimento da aplicação foi baseado em 4 diretórios principais:
 │   ├── faiss_index/    # Vector store
 │   ├── tables/         # Arquivos .csv das tabelas
 │   ├── text/           # Texto da Resolução e tabelas
+│   ├── images/         # Imagens utilizadas no relatório
 ├── evaluation/
 │   ├── analysis.py     # Obtenção da médias das métricas
 │   ├── data/           # Tabelas geradas para obter métricas
@@ -39,41 +54,37 @@ O desenvolvimento da aplicação foi baseado em 4 diretórios principais:
 ## Pipeline
 
 #### 1. Coleta e Processamento de Dados
-Como primeiro passo para o desenvolvimento do projeto, foi preciso obter os dados referentes à Resolução. Para isso, foi utilizada a biblioteca **requests**, e para análise dos elementos HTML, foi utilizada a biblioteca **Beautiful Soup**. Essa análise foi relevante principalmente no quesito do **tratamento de tabelas**, onde o BeautifulSoup permitiu separar as tabelas do texto original, para tratamento posterior.
-No processamento das tabelas, como muitas apresentavam características que limitavam sua compreensão como texto, como células mescladas nos headers, as transformamos em arquivos *csv* com auxílio do *ChatGPT*, e depois as transformamos em texto corrido e as guardamos em um arquivo .txt.
+Como etapa inicial do desenvolvimento do projeto, foi necessário obter os dados relacionados à Resolução. Para isso, utilizamos a biblioteca **requests** para realizar as requisições *HTTP*, e a biblioteca **Beautiful Soup** para analisar os elementos *HTML*. Essa análise foi especialmente relevante no tratamento de tabelas, onde o Beautiful Soup permitiu separar as tabelas do texto original para processamento posterior.
+Durante o processamento das tabelas, muitas delas apresentavam características que dificultavam sua interpretação, como células mescladas nos cabeçalhos. Para contornar essas limitações, convertemo-las em arquivos ```.csv``` com o auxílio do *ChatGPT*. Em seguida, transformamos os dados em texto corrido e armazenamos os resultados em um arquivo ```.txt```.
 
 
 #### 2. Criação do Índice de Busca 
-Para a separação do texto em chunks, separamos em duas abordagens distintas: uma para o texto completo, e a outra para as tabelas que foram extraídas do texto. 
-Para definir os chunks, utilizamos o Recursive Character Text Splitter, do langchain, e para as tabelas, consideramos apenas cada linha da tabela como um chunk distinto.
-Já para a geração das Embeddings, foi utilizado o modelo "all-MiniLM-L6-v2", a partir do HuggingFaceEmbeddings.
-Além disso, optamos por utilizar a FAISS vector store para (//colocar função da FAISS VECTOR STORE), já que (//colocar vantagens da FAISS VECTOR STORE).
-Por fim, unimos as representações vetoriais de ambas as fontes de texto e as guardamos em um arquivo separado, para ser consultado posteriormente.
+A separação do texto em chunks foi realizada por meio de duas abordagens distintas: uma aplicada ao texto completo e outra dedicada às tabelas extraídas. Para definir os chunks, utilizamos o **Recursive Character Text Splitter**, do **LangChain**. No caso das tabelas, cada linha foi tratada como um chunk individual.
+Para a geração das embeddings, utilizamos o modelo **"all-MiniLM-L6-v2"**, disponível no **Hugging Face**, que oferece representações compactas e eficazes do texto.
+Além disso, optamos por utilizar a **FAISS vector store** para armazenar e realizar buscas nas representações vetoriais, devido à sua eficiência na execução de consultas rápidas e escaláveis em grandes conjuntos de dados. Essa escolha nos permitiu otimizar o desempenho da recuperação de informações.
+Por fim, unimos as representações vetoriais provenientes das diferentes fontes textuais (texto completo e tabelas) e armazenamos o resultado em um arquivo consolidado, pronto para consultas futuras.
 
 #### 3. Recuperação de Contexto
-Para a etapa da recuperação do contexto, obtemos a pergunta do usuário como input, e realizamos uma busca de similaridade na vector store, de modo a retornar os k chunks mais relevantes em relação à pergunta. 
+Na etapa de recuperação do contexto, a pergunta do usuário é utilizada como *input*, e realizamos uma busca por similaridade na *vector store*. O objetivo é identificar e retornar os k *chunks* mais relevantes em relação à pergunta formulada. Essa estratégia garante que a resposta gerada seja fundamentada nas informações mais pertinentes disponíveis.
 
 #### 4. Geração de Respostas
-Nesta etapa, o modelo LLaMA 3 (70B), acessado via a API Groq, é utilizado para gerar respostas baseadas nos chunks recuperados e na pergunta do usuário. O prompt foi elaborado combinando os chunks em um contexto estruturado e incluindo instruções para guiar o modelo, buscando respostas mais precisas. A resposta é construída a partir das saídas retornadas pelo modelo e apresentada ao usuário como resultado final.
+Nesta etapa, o modelo *GPT 4o-mini*, acessado via a *API* da **OpenAI**, é utilizado para gerar respostas baseadas nos chunks recuperados e na pergunta do usuário. O prompt foi elaborado combinando os *chunks* em um contexto estruturado e incluindo instruções para guiar o modelo, buscando respostas mais precisas. A resposta é construída a partir das saídas retornadas pelo modelo e apresentada ao usuário como resultado final.
 
 ---
 ## Avaliação do modelo
-Para avaliar as respostas geradas pelo modelo, me baseei nas perguntas mais frequentes do vestibular da Unicamp //adicionar link, e dentre essas, selecionei e adaptei algumas para que fossem mais condizentes com o conteúdo apresentado na resolução. 
-Para a avaliação, foi utilizada a biblioteca RAGAs, de modo que foi gerado um dataset contendo a pergunta, a resposta correta, resposta gerada pelo RAG e o contexto obtido pela busca. 
-Com isso, foi possível avaliar a corretude dos fatos, a fidelidade dos fatos e a similaridade semântica com a resposta ideal. Tais métricas foram obtidas e salvas no arquivo "evaluation_results.csv".
+Para avaliar as respostas geradas pelo modelo, baseamo-nos nas [perguntas mais frequentes](https://www.comvest.unicamp.br/faq-perguntas-frequentes/) do vestibular da Unicamp e, dentre essas, selecionamos e adaptamos algumas para alinhá-las melhor ao conteúdo apresentado na Resolução. A avaliação foi realizada utilizando a biblioteca [Ragas](https://docs.ragas.io/en/stable/), gerando um dataset contendo a pergunta, a resposta correta, a resposta gerada pelo *RAG* e o contexto obtido pela busca. Com esses dados, foi possível mensurar as métricas de corretude dos fatos, fidelidade dos fatos e similaridade semântica em relação à resposta ideal. Os resultados obtidos foram armazenados no arquivo *evaluation_results.csv*.
 
-As métricas obtidas pela análise foram:
-- **Corretude dos fatos**: 13.81%
-- **Fidelidade**: 69,54%
-- **Similaridade Semântica**: 85,81%
+As métricas alcançadas foram:
 
+- **Corretude dos fatos:** *13,81%*
+- **Fidelidade:** *69,54%*
+- **Similaridade semântica:** *85,81%*
 
-Pudemos notar que as métricas estão muito relacionadas com a natureza das perguntas escolhidas. Como foi tentado manter o máximo das perguntas em relação às dúvidas gerais dos candidatos, muitas podem não ter sido garantidamente abordadas na Resolução, o que gerou certa confusão na corretude dos fatos. Porém, com uma inspeção visual, pudemos notar que a aplicação teve um resultado satisfatório na resposta dos dados provenientes de tabelas (como NMO de um curso específico ou número de vagas para ampla-concorrência), o que mostra que a técnica utilizada para lidar com esse tipo de dado. 
+Os resultados evidenciam que essas métricas estão fortemente relacionadas com a natureza das perguntas selecionadas. Como foi priorizado manter perguntas próximas às dúvidas gerais dos candidatos, muitas delas podem não ter sido abordadas diretamente na Resolução, o que impactou negativamente a corretude dos fatos. Entretanto, por meio de inspeção visual, constatamos que a aplicação obteve resultados satisfatórios ao responder questões baseadas em tabelas (como o NMO de um curso específico ou o número de vagas para ampla concorrência). Isso indica que a técnica utilizada para lidar com dados tabulares foi eficaz. Além disso, realizamos comparações entre o desempenho do *LLaMA 3 (70B)* e do *GPT-4o-mini*, e observamos que o *GPT* apresentou métricas mais robustas quando configurado com os parâmetros ideais.
 
-Além disso, foram realizados testes para o Llama 3 70b e GPT 4o-mini, no qual aparentou haver um trade-off entre a fidelidade e Corretude dos fatos ao trocar de modelo (com o Llama apresentando maior corretude e o GPT apresentando maior fidelidade). Também realizei a variação dos parâmetros na construção dos chunks, e m chunk size de 1000 caracteres e 50 de overlap se apresentou como o melhor dentre os testados.
 ---
 
 ## Melhorias e trabalhos futuros
-Como melhorias, os principais pontos seriam trabalhar mais extensamente em testes para configurar parâmetros fundamentais para a avaliação do modelo. Algumas decisões, como o tamanho dos chunks e a quantidade de chunks extraídos por tabela, mostraram-se mais empíricas do que fundamentadas em dados que comprovem sua efetividade. Assim, realizar experimentos sistemáticos para analisar o impacto da variação desses parâmetros seria essencial para otimizar o desempenho da aplicação.
-
-Além disso, aplicar técnicas mais sofisticadas, como o re-ranking, traria maior robustez ao modelo, permitindo que os resultados retornados pela busca fossem ordenados com base em sua relevância em relação à pergunta do usuário. Isso ajudaria a reduzir a probabilidade de incluir informações irrelevantes no contexto passado ao modelo.
+Como melhorias, os principais pontos seriam trabalhar mais extensamente em testes para configurar parâmetros fundamentais para a avaliação do modelo. Como foram escolhidos poucos valores distintos para o teste desses parâmetros, uma pesquisa mais extensa certamente traria benefícios para as métricas do modelo.
+Além disso, aplicar técnicas mais sofisticadas, como o *re-ranking*, traria maior robustez ao modelo, permitindo que os resultados retornados pela busca fossem ordenados com base em sua relevância em relação à pergunta do usuário. Isso ajudaria a reduzir a probabilidade de incluir informações irrelevantes no contexto passado ao modelo.
+Por fim, experimentar outros modelos para a geração dos embeddings também seria relevante para avaliar como essa escolha impacta nas métricas finais.
