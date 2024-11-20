@@ -19,7 +19,9 @@ def main():
     if st.button("Submit"):
         with st.spinner("Processando sua dúvida..."):
             index_path = "data/faiss_index"
-            print(os.listdir('.'))
+            print(os.listdir('../'))
+            print(os.listdir('..'))
+
             vector_store = load_faiss_vector_store(index_path) # carregar a vector store
             
             top_k = 15
