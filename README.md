@@ -56,6 +56,7 @@ O desenvolvimento da aplicação foi baseado em 4 diretórios principais:
 
 #### 1. Coleta e Processamento de Dados
 Como etapa inicial do desenvolvimento do projeto, foi necessário obter os dados relacionados à Resolução. Para isso, foi utilizada a biblioteca **requests** para realizar as requisições *HTTP*, e a biblioteca **Beautiful Soup** para analisar os elementos *HTML*. Essa análise foi especialmente relevante no tratamento de tabelas, onde o Beautiful Soup permitiu separar as tabelas do texto original para processamento posterior.
+
 Durante o processamento das tabelas, muitas delas apresentavam características que dificultavam sua interpretação, como células mescladas nos cabeçalhos. Para contornar essas limitações, convertemo-las em arquivos ```.csv``` com o auxílio do *ChatGPT*. Em seguida, transformamos os dados em texto corrido e armazenamos os resultados em um arquivo ```.txt```.
 
 #### 2. Criação do Índice de Busca 
