@@ -88,7 +88,7 @@ Os resultados evidenciam que essas métricas estão fortemente relacionadas com 
 
 
 ## Melhorias e trabalhos futuros
-Como melhorias, os principais pontos seriam trabalhar mais extensamente em testes para configurar parâmetros fundamentais para a avaliação do modelo. Como foram escolhidos poucos valores distintos para o teste desses parâmetros, uma pesquisa mais extensa certamente traria benefícios para as métricas do modelo.
+Como melhorias, os principais pontos seriam trabalhar mais extensamente em testes para configurar parâmetros fundamentais para a avaliação do modelo, como tamanho do chunk, tamanho do overlap e a função de divisão do texto em si. Como foram escolhidos poucos valores distintos para o teste desses parâmetros, uma pesquisa mais extensa certamente traria benefícios para as métricas do modelo.
 
 Uma análise mais profunda acerca das perguntas que melhor avaliam o modelo também seria eficaz para o processo, visto que as métricas baseadas nesse questionamento definem toda a qualidade da aplicação.
 
