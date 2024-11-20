@@ -7,12 +7,21 @@ from openai import OpenAI
 import os
 import logging
 from dotenv import load_dotenv
-
-# Carregar variáveis de ambiente do arquivo .env
-load_dotenv()
+from pathlib import Path
+import openai
 
 # Configurar logging
 logging.basicConfig(level=logging.INFO)
+
+# Definir o caminho absoluto para o arquivo .env na raiz do projeto
+dotenv_path = Path(__file__).resolve().parents[1]
+load_dotenv(dotenv_path=dotenv_path)
+
+# Verificar se a chave de API foi carregada corretamente
+openai_api_key = os.getenv("OPENAI_API_KEY")
+
+# Configurar a chave API da OpenAI
+openai.api_key = openai_api_key
 
 def load_faiss_vector_store(index_path, model_name="all-MiniLM-L6-v2"):
     """
