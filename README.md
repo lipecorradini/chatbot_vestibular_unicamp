@@ -61,8 +61,10 @@ Durante o processamento das tabelas, muitas delas apresentavam características 
 
 #### 2. Criação do Índice de Busca 
 A separação do texto em chunks foi realizada por meio de duas abordagens distintas: uma aplicada ao texto completo e outra dedicada às tabelas extraídas. Para definir os chunks, foi utilizado o **Recursive Character Text Splitter**, do **LangChain**. No caso das tabelas, cada linha foi tratada como um chunk individual.
+
 Para a geração das embeddings, foi utilizado o modelo **"all-MiniLM-L6-v2"**, disponível no **Hugging Face**, que oferece representações compactas e eficazes do texto.
 Além disso, optamos por utilizar a **FAISS vector store** para armazenar e realizar buscas nas representações vetoriais, devido à sua eficiência na execução de consultas rápidas e escaláveis em grandes conjuntos de dados.
+
 Por fim, unimos as representações vetoriais provenientes das diferentes fontes textuais (texto completo e tabelas) e armazenamos o resultado em um arquivo para ser consultado nas próximas etapas do processo.
 
 #### 3. Recuperação de Contexto
@@ -87,6 +89,8 @@ Os resultados evidenciam que essas métricas estão fortemente relacionadas com 
 
 ## Melhorias e trabalhos futuros
 Como melhorias, os principais pontos seriam trabalhar mais extensamente em testes para configurar parâmetros fundamentais para a avaliação do modelo. Como foram escolhidos poucos valores distintos para o teste desses parâmetros, uma pesquisa mais extensa certamente traria benefícios para as métricas do modelo.
+
 Uma análise mais profunda acerca das perguntas que melhor avaliam o modelo também seria eficaz para o processo, visto que as métricas baseadas nesse questionamento definem toda a qualidade da aplicação.
+
 Além disso, aplicar técnicas mais sofisticadas, como o *re-ranking*, traria maior robustez ao modelo, permitindo que os resultados retornados pela busca fossem ordenados com base em sua relevância em relação à pergunta do usuário. Isso ajudaria a reduzir a probabilidade de incluir informações irrelevantes no contexto passado ao modelo.
 Por fim, experimentar outros modelos para a geração dos embeddings também seria relevante para avaliar como essa escolha impacta nas métricas finais.
