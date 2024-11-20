@@ -55,24 +55,24 @@ O desenvolvimento da aplicação foi baseado em 4 diretórios principais:
 ## Pipeline
 
 #### 1. Coleta e Processamento de Dados
-Como etapa inicial do desenvolvimento do projeto, foi necessário obter os dados relacionados à Resolução. Para isso, utilizamos a biblioteca **requests** para realizar as requisições *HTTP*, e a biblioteca **Beautiful Soup** para analisar os elementos *HTML*. Essa análise foi especialmente relevante no tratamento de tabelas, onde o Beautiful Soup permitiu separar as tabelas do texto original para processamento posterior.
+Como etapa inicial do desenvolvimento do projeto, foi necessário obter os dados relacionados à Resolução. Para isso, foi utilizada a biblioteca **requests** para realizar as requisições *HTTP*, e a biblioteca **Beautiful Soup** para analisar os elementos *HTML*. Essa análise foi especialmente relevante no tratamento de tabelas, onde o Beautiful Soup permitiu separar as tabelas do texto original para processamento posterior.
 Durante o processamento das tabelas, muitas delas apresentavam características que dificultavam sua interpretação, como células mescladas nos cabeçalhos. Para contornar essas limitações, convertemo-las em arquivos ```.csv``` com o auxílio do *ChatGPT*. Em seguida, transformamos os dados em texto corrido e armazenamos os resultados em um arquivo ```.txt```.
 
 #### 2. Criação do Índice de Busca 
-A separação do texto em chunks foi realizada por meio de duas abordagens distintas: uma aplicada ao texto completo e outra dedicada às tabelas extraídas. Para definir os chunks, utilizamos o **Recursive Character Text Splitter**, do **LangChain**. No caso das tabelas, cada linha foi tratada como um chunk individual.
-Para a geração das embeddings, utilizamos o modelo **"all-MiniLM-L6-v2"**, disponível no **Hugging Face**, que oferece representações compactas e eficazes do texto.
-Além disso, optamos por utilizar a **FAISS vector store** para armazenar e realizar buscas nas representações vetoriais, devido à sua eficiência na execução de consultas rápidas e escaláveis em grandes conjuntos de dados. Essa escolha nos permitiu otimizar o desempenho da recuperação de informações.
-Por fim, unimos as representações vetoriais provenientes das diferentes fontes textuais (texto completo e tabelas) e armazenamos o resultado em um arquivo consolidado, pronto para consultas futuras.
+A separação do texto em chunks foi realizada por meio de duas abordagens distintas: uma aplicada ao texto completo e outra dedicada às tabelas extraídas. Para definir os chunks, foi utilizado o **Recursive Character Text Splitter**, do **LangChain**. No caso das tabelas, cada linha foi tratada como um chunk individual.
+Para a geração das embeddings, foi utilizado o modelo **"all-MiniLM-L6-v2"**, disponível no **Hugging Face**, que oferece representações compactas e eficazes do texto.
+Além disso, optamos por utilizar a **FAISS vector store** para armazenar e realizar buscas nas representações vetoriais, devido à sua eficiência na execução de consultas rápidas e escaláveis em grandes conjuntos de dados.
+Por fim, unimos as representações vetoriais provenientes das diferentes fontes textuais (texto completo e tabelas) e armazenamos o resultado em um arquivo para ser consultado nas próximas etapas do processo.
 
 #### 3. Recuperação de Contexto
-Na etapa de recuperação do contexto, a pergunta do usuário é utilizada como *input*, e realizamos uma busca por similaridade na *vector store*. O objetivo é identificar e retornar os k *chunks* mais relevantes em relação à pergunta formulada. Essa estratégia garante que a resposta gerada seja fundamentada nas informações mais pertinentes disponíveis.
+Na etapa de recuperação do contexto, a pergunta do usuário é utilizada como *input*, e é realizada uma busca por similaridade na *vector store*. O objetivo é identificar e retornar os k *chunks* mais relevantes em relação à pergunta formulada. Essa estratégia garante que a resposta gerada seja fundamentada nas informações mais pertinentes disponíveis.
 
 #### 4. Geração de Respostas
 Nesta etapa, o modelo *GPT 4o-mini*, acessado via a *API* da **OpenAI**, é utilizado para gerar respostas baseadas nos chunks recuperados e na pergunta do usuário. O prompt foi elaborado combinando os *chunks* em um contexto estruturado e incluindo instruções para guiar o modelo, buscando respostas mais precisas. A resposta é construída a partir das saídas retornadas pelo modelo e apresentada ao usuário como resultado final.
 
 
 ## Avaliação do modelo
-Para avaliar as respostas geradas pelo modelo, baseamo-nos nas [perguntas mais frequentes](https://www.comvest.unicamp.br/faq-perguntas-frequentes/) do vestibular da Unicamp e, dentre essas, selecionamos e adaptamos algumas para alinhá-las melhor ao conteúdo apresentado na Resolução. A avaliação foi realizada utilizando a biblioteca [Ragas](https://docs.ragas.io/en/stable/), gerando um dataset contendo a pergunta, a resposta correta, a resposta gerada pelo *RAG* e o contexto obtido pela busca. Com esses dados, foi possível mensurar as métricas de corretude dos fatos, fidelidade dos fatos e similaridade semântica em relação à resposta ideal. Os resultados obtidos foram armazenados no arquivo *evaluation_results.csv*.
+Para avaliar as respostas geradas pelo modelo, me baseei nas [perguntas mais frequentes](https://www.comvest.unicamp.br/faq-perguntas-frequentes/) do vestibular da Unicamp e, dentre essas, selecionamos e adaptamos algumas para alinhá-las melhor ao conteúdo apresentado na Resolução. A avaliação foi realizada utilizando a biblioteca [Ragas](https://docs.ragas.io/en/stable/), gerando um dataset contendo a pergunta, a resposta correta, a resposta gerada pelo *RAG* e o contexto obtido pela busca. Com esses dados, foi possível mensurar as métricas de corretude dos fatos, fidelidade dos fatos e similaridade semântica em relação à resposta ideal. Os resultados obtidos foram armazenados no arquivo *evaluation_results.csv*.
 
 As métricas alcançadas foram:
 
