@@ -4,6 +4,7 @@
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.vectorstores import FAISS
 from openai import OpenAI
+import os
 
 def load_faiss_vector_store(index_path, model_name="all-MiniLM-L6-v2"):
     """
@@ -11,10 +12,15 @@ def load_faiss_vector_store(index_path, model_name="all-MiniLM-L6-v2"):
     """
     embeddings = HuggingFaceEmbeddings(model_name=model_name) # instanciando o huggingface embeddings
     
+    # Use caminho absoluto
+    absolute_index_path = os.path.abspath(index_path)
+
+    index_path = '../data/faiss_index'
+
+    print(f"atual dentro do faiss: {os.listdir('../data/faiss_index')}\n")
     # carregando a bvector store localmente
     vector_store = FAISS.load_local(index_path, embeddings, allow_dangerous_deserialization=True)
 
-    
     return vector_store
 
 

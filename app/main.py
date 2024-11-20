@@ -1,5 +1,5 @@
 import streamlit as st
-
+import os
 from query import load_faiss_vector_store, retrieve_relevant_chunks, generate_response
 
 def main():
@@ -18,7 +18,8 @@ def main():
     # Caso o botão 'submit' seja clicado, processar a pergunta
     if st.button("Submit"):
         with st.spinner("Processando sua dúvida..."):
-            index_path = "../data/faiss_index"
+            index_path = "data/faiss_index"
+            print(os.listdir('.'))
             vector_store = load_faiss_vector_store(index_path) # carregar a vector store
             
             top_k = 15
