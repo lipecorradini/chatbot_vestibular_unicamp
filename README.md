@@ -2,7 +2,6 @@
 
 Esse projeto foi desenvolvido como uma das etapas do proceso de estágio na [Neuralmind](https://neuralmind.ai/en/home-en/). O objetivo do projeto foi desenvolver um chatbot que, utilizando Retrieval-Augmented Generation (RAG), consiga responder dúvidas acerca da [Resolução GR-029/2024](https://www.pg.unicamp.br/norma/31879/0), documento contendo informações gerais acerca do vestibular. 
 
-
 ## Uso
 
 O deploy do chatbot foi realizado utilizando o streamlit, e está disponível para ser testado em https://chatbotunicamp2025.streamlit.app/
