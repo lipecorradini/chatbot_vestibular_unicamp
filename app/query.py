@@ -15,10 +15,10 @@ def load_faiss_vector_store(index_path, model_name="all-MiniLM-L6-v2"):
     # Use caminho absoluto
     absolute_index_path = os.path.abspath(index_path)
 
-    index_path = '../data/faiss_index'
+    index_path = './data/faiss_index'
 
     print(f"atual dentro do faiss: {os.listdir('../')}\n")
-    print(f"atual dentro do faiss: {os.listdir('..')}\n")
+    print(f"atual dentro do faiss: {os.listdir('.')}\n")
 
     # carregando a bvector store localmente
     vector_store = FAISS.load_local(index_path, embeddings, allow_dangerous_deserialization=True)
