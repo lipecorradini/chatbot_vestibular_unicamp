@@ -2,7 +2,6 @@
 
 Esse projeto foi desenvolvido como uma das etapas do proceso de estágio na [Neuralmind](https://neuralmind.ai/en/home-en/). O objetivo do projeto foi desenvolver um chatbot que, utilizando Retrieval-Augmented Generation (RAG), consiga responder dúvidas acerca da [Resolução GR-029/2024](https://www.pg.unicamp.br/norma/31879/0), documento contendo informações gerais acerca do vestibular. 
 
----
 
 ## Uso
 
@@ -50,7 +49,7 @@ O desenvolvimento da aplicação foi baseado em 4 diretórios principais:
 ├── README.md 
 ├── requirements.txt
 ```
----
+
 ## Pipeline
 
 #### 1. Coleta e Processamento de Dados
@@ -70,7 +69,7 @@ Na etapa de recuperação do contexto, a pergunta do usuário é utilizada como 
 #### 4. Geração de Respostas
 Nesta etapa, o modelo *GPT 4o-mini*, acessado via a *API* da **OpenAI**, é utilizado para gerar respostas baseadas nos chunks recuperados e na pergunta do usuário. O prompt foi elaborado combinando os *chunks* em um contexto estruturado e incluindo instruções para guiar o modelo, buscando respostas mais precisas. A resposta é construída a partir das saídas retornadas pelo modelo e apresentada ao usuário como resultado final.
 
----
+
 ## Avaliação do modelo
 Para avaliar as respostas geradas pelo modelo, baseamo-nos nas [perguntas mais frequentes](https://www.comvest.unicamp.br/faq-perguntas-frequentes/) do vestibular da Unicamp e, dentre essas, selecionamos e adaptamos algumas para alinhá-las melhor ao conteúdo apresentado na Resolução. A avaliação foi realizada utilizando a biblioteca [Ragas](https://docs.ragas.io/en/stable/), gerando um dataset contendo a pergunta, a resposta correta, a resposta gerada pelo *RAG* e o contexto obtido pela busca. Com esses dados, foi possível mensurar as métricas de corretude dos fatos, fidelidade dos fatos e similaridade semântica em relação à resposta ideal. Os resultados obtidos foram armazenados no arquivo *evaluation_results.csv*.
 
@@ -82,7 +81,7 @@ As métricas alcançadas foram:
 
 Os resultados evidenciam que essas métricas estão fortemente relacionadas com a natureza das perguntas selecionadas. Como foi priorizado manter perguntas próximas às dúvidas gerais dos candidatos, muitas delas podem não ter sido abordadas diretamente na Resolução, o que impactou negativamente a corretude dos fatos. Entretanto, por meio de inspeção visual, constatamos que a aplicação obteve resultados satisfatórios ao responder questões baseadas em tabelas (como o NMO de um curso específico ou o número de vagas para ampla concorrência). Isso indica que a técnica utilizada para lidar com dados tabulares foi eficaz. Além disso, realizamos comparações entre o desempenho do *LLaMA 3 (70B)* e do *GPT-4o-mini*, e observamos que o *GPT* apresentou métricas mais robustas quando configurado com os parâmetros ideais.
 
----
+
 
 ## Melhorias e trabalhos futuros
 Como melhorias, os principais pontos seriam trabalhar mais extensamente em testes para configurar parâmetros fundamentais para a avaliação do modelo. Como foram escolhidos poucos valores distintos para o teste desses parâmetros, uma pesquisa mais extensa certamente traria benefícios para as métricas do modelo.
