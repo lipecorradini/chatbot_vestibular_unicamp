@@ -63,12 +63,14 @@ Para a avaliação, foi utilizada a biblioteca RAGAs, de modo que foi gerado um 
 Com isso, foi possível avaliar a corretude dos fatos, a fidelidade dos fatos e a similaridade semântica com a resposta ideal. Tais métricas foram obtidas e salvas no arquivo "evaluation_results.csv".
 
 As métricas obtidas pela análise foram:
-- **Corretude dos fatos**: 13.62%
-- **Fidelidade**: 69,79%
-- **Similaridade Semântica**: 83,61%
+- **Corretude dos fatos**: 13.81%
+- **Fidelidade**: 69,54%
+- **Similaridade Semântica**: 85,81%
 
-+adicionar comentário sobre as métricas obtidas
 
+Pudemos notar que as métricas estão muito relacionadas com a natureza das perguntas escolhidas. Como foi tentado manter o máximo das perguntas em relação às dúvidas gerais dos candidatos, muitas podem não ter sido garantidamente abordadas na Resolução, o que gerou certa confusão na corretude dos fatos. Porém, com uma inspeção visual, pudemos notar que a aplicação teve um resultado satisfatório na resposta dos dados provenientes de tabelas (como NMO de um curso específico ou número de vagas para ampla-concorrência), o que mostra que a técnica utilizada para lidar com esse tipo de dado. 
+
+Além disso, foram realizados testes para o Llama 3 70b e GPT 4o-mini, no qual aparentou haver um trade-off entre a fidelidade e Corretude dos fatos ao trocar de modelo (com o Llama apresentando maior corretude e o GPT apresentando maior fidelidade). Também realizei a variação dos parâmetros na construção dos chunks, e m chunk size de 1000 caracteres e 50 de overlap se apresentou como o melhor dentre os testados.
 ---
 
 ## Melhorias e trabalhos futuros

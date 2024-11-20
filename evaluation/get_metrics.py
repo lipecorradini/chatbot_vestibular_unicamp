@@ -32,7 +32,7 @@ def safe_parse_list(x):
         return [str(x)]
 
 
-def generate_answers(input_csv_path='./evaluation/questions.csv', output_csv_path='evaluation/generated_dataset.csv'):
+def generate_answers(input_csv_path='evaluation/data/questions.csv', output_csv_path='evaluation/data/generated_dataset.csv'):
     """
     para cada pergunta definida, gera uma resposta no do modelo, e constrói o dataset para ser avaliado pelo RAGA
     """
@@ -51,7 +51,7 @@ def generate_answers(input_csv_path='./evaluation/questions.csv', output_csv_pat
         question = row['perguntas']
 
         # obter chunks mais relevantes
-        relevant_chunks = retrieve_relevant_chunks(question, vector_store)
+        relevant_chunks = retrieve_relevant_chunks(question, vector_store, 10)
 
         # gerar resposta
         response = generate_response(relevant_chunks, question)
@@ -76,7 +76,7 @@ def generate_answers(input_csv_path='./evaluation/questions.csv', output_csv_pat
 
 
 
-def calculate_metrics(generated_dataset_path='evaluation/generated_dataset.csv'):
+def calculate_metrics(generated_dataset_path='evaluation/data/generated_dataset.csv'):
     """
     calculando métricas definidas utilizando a biblioteca RAGAS.
     """
@@ -111,15 +111,15 @@ def calculate_metrics(generated_dataset_path='evaluation/generated_dataset.csv')
     results_df = results.to_pandas()
 
     # salvando em csv 
-    results_df.to_csv('./evaluation_results.csv', index=False, encoding='utf-8')
+    results_df.to_csv('./data/evaluation_results.csv', index=False, encoding='utf-8')
 
 
 
 if __name__ == "__main__":
    
     # gerando respostas
-    generate_answers(input_csv_path='./evaluation/questions.csv', output_csv_path='evaluation/generated_dataset.csv')
+    generate_answers(input_csv_path='./evaluation/data/questions.csv', output_csv_path='evaluation/data/generated_dataset.csv')
     
     # calculando métricas
-    calculate_metrics(generated_dataset_path='evaluation/generated_dataset.csv')
+    calculate_metrics(generated_dataset_path='evaluation/data/generated_dataset.csv')
     

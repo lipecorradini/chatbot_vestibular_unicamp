@@ -74,6 +74,8 @@ def process_tables(csv_directory, output_file):
                 for idx, (header, value) in enumerate(zip(headers, row)):
                     # consideramos para todas as tabelas a primeira coluna como identificadora e as demais como atributos
                     # por isso, as transformamos em texto com "Para __nome__ temos __atributo__ __valor__"
+                    if idx == 0 and "total" in header.lower():
+                        formatted_line += f"Para todos os {header}, "
                     if idx == 0:
                         formatted_line += f"Para {header} {value}"
                     else:

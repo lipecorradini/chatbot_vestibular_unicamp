@@ -5,7 +5,7 @@ def return_results():
     mostra os resultados das métricas
     '''
     # lendo o arquivo .csv com os resultados
-    results = pd.read_csv('./evaluation_results.csv')
+    results = pd.read_csv('./data/evaluation_results.csv')
     
     # retirando os valores que não conseguiram ser computados
     fact_isna = results['factual_correctness'].isna().sum()

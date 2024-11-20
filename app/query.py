@@ -3,7 +3,7 @@
 
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.vectorstores import FAISS
-from groq import Groq
+from openai import OpenAI
 
 def load_faiss_vector_store(index_path, model_name="all-MiniLM-L6-v2"):
     """
@@ -12,10 +12,8 @@ def load_faiss_vector_store(index_path, model_name="all-MiniLM-L6-v2"):
     embeddings = HuggingFaceEmbeddings(model_name=model_name) # instanciando o huggingface embeddings
     
     # carregando a bvector store localmente
-    vector_store = FAISS.load_local(
-        folder_path=index_path,
-        embeddings=embeddings,
-    )
+    vector_store = FAISS.load_local(index_path, embeddings, allow_dangerous_deserialization=True)
+
     
     return vector_store
 
@@ -28,16 +26,14 @@ def retrieve_relevant_chunks(query, vector_store, top_k=10):
     return results
 
 
-def generate_response(retrieved_chunks, user_query, model_name="llama3-groq-70b-8192-tool-use-preview"):
+def generate_response(retrieved_chunks, user_query):
     """
-    Generates a response using the Groq API based on retrieved chunks and user query.
+    Gera a resposta utilizando a API da OpenAI baseada nos chunks obtidos e na pergunta passada pelo usuário. 
+    O modelo utilizado por padrão foi o GPT 4o-mini
+    """
+    # inicializando o modelo
+    client = OpenAI()
 
-    Gera a resposta utilizando a API do Groq baseada nos chunks obtidos e na pergunta passada pelo usuário. 
-    O modelo utilizado por padrão foi o llama3 com 70 bilhões de parâmetros
-    """
-    # inicializando o groq
-    client = Groq()
-    
     # construindo o contexto a partir dos chunks
     context = "\n\n".join([f"Chunk {i+1}:\n{doc.page_content}" for i, doc in enumerate(retrieved_chunks)])
     
@@ -59,14 +55,9 @@ def generate_response(retrieved_chunks, user_query, model_name="llama3-groq-70b-
     
     # chamada da api
     completion = client.chat.completions.create(
-        model=model_name,
+        model="gpt-4o-mini",
         messages=messages,
-        temperature=0, # selecionar as respostas com menos 'variação'
-        max_tokens=1024,
-        top_p=0.65,
-        stream=True,
-        stop=None,
-    )
+        stream=True)
 
     # obtendo a resposta e retornando para o usuário
     generated_response = ''
