@@ -7,22 +7,14 @@ from groq import Groq
 
 def load_faiss_vector_store(index_path, model_name="all-MiniLM-L6-v2"):
     """
-    Loads the FAISS vector store from the specified path.
-
-    Args:
-        index_path (str): Path to the saved FAISS index.
-        model_name (str): Hugging Face model name used for embeddings.
-
-    Returns:
-        FAISS: Loaded FAISS vector store.
+    Carrega a vector store para realizar a busca por similaridade
     """
-    embeddings = HuggingFaceEmbeddings(model_name=model_name)
+    embeddings = HuggingFaceEmbeddings(model_name=model_name) # instanciando o huggingface embeddings
     
-    # Enable dangerous deserialization if you trust the source
+    # carregando a bvector store localmente
     vector_store = FAISS.load_local(
         folder_path=index_path,
         embeddings=embeddings,
-        allow_dangerous_deserialization=True
     )
     
     return vector_store
@@ -30,15 +22,7 @@ def load_faiss_vector_store(index_path, model_name="all-MiniLM-L6-v2"):
 
 def retrieve_relevant_chunks(query, vector_store, top_k=10):
     """
-    Retrieves the top-K most relevant text chunks for a given query.
-
-    Args:
-        query (str): User input query.
-        vector_store (FAISS): FAISS vector store containing embeddings.
-        top_k (int): Number of top similar chunks to retrieve.
-
-    Returns:
-        List[Document]: List of retrieved documents.
+    Obtém os top-k chunks para a query passada pelo usuário, por meio da busca de similaridade
     """
     results = vector_store.similarity_search(query, k=top_k)
     return results
@@ -48,21 +32,16 @@ def generate_response(retrieved_chunks, user_query, model_name="llama3-groq-70b-
     """
     Generates a response using the Groq API based on retrieved chunks and user query.
 
-    Args:
-        retrieved_chunks (List[Document]): Retrieved text chunks.
-        user_query (str): User input query.
-        model_name (str): Groq model name.
-
-    Returns:
-        str: Generated response from the model.
+    Gera a resposta utilizando a API do Groq baseada nos chunks obtidos e na pergunta passada pelo usuário. 
+    O modelo utilizado por padrão foi o llama3 com 70 bilhões de parâmetros
     """
-    # Initialize the Groq client
+    # inicializando o groq
     client = Groq()
     
-    # Construct the context from retrieved chunks
+    # construindo o contexto a partir dos chunks
     context = "\n\n".join([f"Chunk {i+1}:\n{doc.page_content}" for i, doc in enumerate(retrieved_chunks)])
     
-    # Construct the messages for the API
+    # construindo a mensagem para a chamada da api
     messages = [
         {
             "role": "system",
@@ -78,17 +57,18 @@ def generate_response(retrieved_chunks, user_query, model_name="llama3-groq-70b-
         }
     ]
     
-    # Call the Groq API
+    # chamada da api
     completion = client.chat.completions.create(
         model=model_name,
         messages=messages,
-        temperature=0,
+        temperature=0, # selecionar as respostas com menos 'variação'
         max_tokens=1024,
         top_p=0.65,
         stream=True,
         stop=None,
     )
 
+    # obtendo a resposta e retornando para o usuário
     generated_response = ''
     for chunk in completion:
         generated_response += (chunk.choices[0].delta.content or "")

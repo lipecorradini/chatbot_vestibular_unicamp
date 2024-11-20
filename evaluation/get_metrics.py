@@ -1,4 +1,3 @@
-import os
 import pandas as pd
 import ast
 from datasets import Dataset
@@ -14,149 +13,113 @@ from app.query import load_faiss_vector_store, retrieve_relevant_chunks, generat
 
 def safe_parse_list(x):
     """
-    Safely parse a string representation of a list into an actual list.
-    If parsing fails, return a list containing the original string.
+    garantindo que cada chunk é uma lista de strings. alguns não estavam formatados corretamente antes
     """
-    if isinstance(x, str):
+    if isinstance(x, str): # se for string, trata e transforma em lista
         x = x.strip()
-        # Check if the string starts with '[' and ends with ']'
         if x.startswith('[') and x.endswith(']'):
             try:
                 return ast.literal_eval(x)
             except (ValueError, SyntaxError):
-                # If parsing fails, return the string in a list
                 return [x]
         else:
-            # If not list-like, wrap the string in a list
             return [x]
-    elif isinstance(x, list):
+
+    elif isinstance(x, list): # se for lista, so retorna
         return x
-    else:
-        # For any other type, convert to string and wrap in a list
+
+    else: # se nao, transforma em string e coloca em uma lista
         return [str(x)]
+
 
 def generate_answers(input_csv_path='./evaluation/questions.csv', output_csv_path='evaluation/generated_dataset.csv'):
     """
-    Generates answers and retrieves relevant contexts for each question.
-
-    Args:
-        input_csv_path (str): Path to the CSV file containing questions and ground truths.
-        output_csv_path (str): Path where the generated dataset will be saved.
+    para cada pergunta definida, gera uma resposta no do modelo, e constrói o dataset para ser avaliado pelo RAGA
     """
-    # Load the FAISS vector store
+    # carregar a vector store
     index_path = "./data/faiss_index"  
     vector_store = load_faiss_vector_store(index_path)
 
-    # Load questions and ground truths
+    # carregando as questões
     questions = pd.read_csv(input_csv_path, encoding='utf-8')
 
+    # lista para guardar respostas do modelo e os chunks obtidos por cada recuperação de contexto
     answers = []
     all_chunks = []
 
     for idx, row in questions.iterrows():
         question = row['perguntas']
-        ground_truth = row['verdades']
 
-        # Retrieve relevant chunks from the vector store
+        # obter chunks mais relevantes
         relevant_chunks = retrieve_relevant_chunks(question, vector_store)
 
-        # Generate response using the retrieved chunks and the question
+        # gerar resposta
         response = generate_response(relevant_chunks, question)
 
-        # Append the generated answer
+        # salvar resposta
         answers.append(response)
 
-        # Extract the text from each relevant chunk as a list of strings
+        # extrair os chunks e colocá-los numa lista
         chunks_text = [doc.page_content for doc in relevant_chunks]
         all_chunks.append(chunks_text)
 
-    # Construct the dataset with your specified field names
+    # construindo dataframe 
     retrieved_info = pd.DataFrame({
         'user_input': questions['perguntas'],
-        'reference': questions['verdades'],  # Remains a plain string
+        'reference': questions['verdades'], 
         'response': answers,
-        'retrieved_contexts': all_chunks,    # List of strings
+        'retrieved_contexts': all_chunks,    # lista de strings, terá que ser tratada
     })
 
-    # Save the generated dataset to a CSV file
+    # salvando dataframe como arquivo csv
     retrieved_info.to_csv(output_csv_path, index=False, encoding='utf-8')
-    print(f"Generated dataset saved to {output_csv_path}")
 
 
 
 def calculate_metrics(generated_dataset_path='evaluation/generated_dataset.csv'):
     """
-    Calculates evaluation metrics for the generated dataset using gpt-3.5-turbo.
-
-    Args:
-        generated_dataset_path (str): Path to the generated dataset CSV file.
+    calculando métricas definidas utilizando a biblioteca RAGAS.
     """
-    # Load the generated dataset
-    try:
-        generated_df = pd.read_csv(generated_dataset_path, encoding='utf-8')
-        print("DataFrame loaded successfully")
-    except Exception as e:
-        print(f"Error loading CSV: {e}")
-        return
-
-    # Safely parse 'retrieved_contexts' from string to list
+    # carregando o dataset
+    generated_df = pd.read_csv(generated_dataset_path, encoding='utf-8')
+   
+    # tratando os contextos para se adaptar ao tipo exigido pelo ragas
     generated_df['retrieved_contexts'] = generated_df['retrieved_contexts'].apply(safe_parse_list)
-    print("Parsed 'retrieved_contexts' to lists.")
 
-    # Verify the parsing by printing the first few entries
-    print(generated_df[['retrieved_contexts']].head())
-
-    # Convert the DataFrame to a HuggingFace Dataset
+    # obtendo dataset do tipo huggingface (exigido pelo RAGAs)
     hf_dataset = Dataset.from_pandas(generated_df)
 
-    # Create an EvaluationDataset from the HuggingFace Dataset
+    # criando dataset de avaliação
     eval_dataset = EvaluationDataset.from_hf_dataset(hf_dataset)
-    print("Evaluation Dataset created successfully")
 
-    # Initialize the LLM and Embeddings wrappers with the gpt-3.5-turbo model
-    try:
-        model_name = "gpt-4o"  # Alternative model
-        evaluator_llm = LangchainLLMWrapper(ChatOpenAI(model=model_name))
-        evaluator_embeddings = LangchainEmbeddingsWrapper(OpenAIEmbeddings())
-    except Exception as e:
-        print(f"Error initializing LLM or Embeddings: {e}")
-        return
-
-    # Define the metrics to evaluate
+    # Iinicializando o wrapper do gpt 4o
+    model_name = "gpt-4o"  # Alternative model
+    evaluator_llm = LangchainLLMWrapper(ChatOpenAI(model=model_name))
+    evaluator_embeddings = LangchainEmbeddingsWrapper(OpenAIEmbeddings())
+   
+    # definindo as métricas que serão avaliadas
     metrics = [
         FactualCorrectness(llm=evaluator_llm), 
         Faithfulness(llm=evaluator_llm),
         SemanticSimilarity(embeddings=evaluator_embeddings)
     ]
-    print("Metrics defined")
 
-    # Perform the evaluation
-    try:
-        results = evaluate(dataset=eval_dataset, metrics=metrics)
-    except Exception as e:
-        print(f"Error during evaluation: {e}")
-        return
+    # realizando a avaliação
+    results = evaluate(dataset=eval_dataset, metrics=metrics)
 
-    # Convert results to a pandas DataFrame and display
-    try:
-        results_df = results.to_pandas()
-        print(results_df.head())
-    except Exception as e:
-        print(f"Error converting results to DataFrame: {e}")
-        return
+    # converter resultados em dataframe
+    results_df = results.to_pandas()
 
-    # Optionally, save the results to a CSV file
-    try:
-        results_df.to_csv('./evaluation_results.csv', index=False, encoding='utf-8')
-        print("Evaluation metrics saved to evaluation_results.csv")
-    except Exception as e:
-        print(f"Error saving results to CSV: {e}")
+    # salvando em csv 
+    results_df.to_csv('./evaluation_results.csv', index=False, encoding='utf-8')
+
 
 
 if __name__ == "__main__":
-    # Step 1: Generate the dataset with answers and contexts
+   
+    # gerando respostas
     generate_answers(input_csv_path='./evaluation/questions.csv', output_csv_path='evaluation/generated_dataset.csv')
     
-    # Step 2: Calculate the evaluation metrics
+    # calculando métricas
     calculate_metrics(generated_dataset_path='evaluation/generated_dataset.csv')
     

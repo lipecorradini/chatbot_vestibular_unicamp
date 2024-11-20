@@ -4,7 +4,6 @@ Esse projeto foi desenvolvido como uma das etapas do proceso de estágio na Neur
 
 ---
 
-
 ## Uso
 
 O chatbot está disponível em 
@@ -12,24 +11,49 @@ O chatbot está disponível em
 
 ---
 
+## Estrutura de arquivos
+O desenvolvimento da aplicação foi baseado em 4 diretórios principais:
+- **app**: Realizar o deploy da aplicação e funções para encontrar documentos mais relevantes e gerar resposta
+- **data**: Armazenar dados para o processo de transformação de texto e recuperação de contexto
+- **pre-processing**: Raspagem dos dados da página oficial e criação da vector store
+- **evaluation**: Aplicação de métricas para avaliação do modelo.
+```
+├── app/ 
+│   ├── main.py         # Deploy da aplicação
+│   ├── query.py        # Geração das respostas
+├── data/
+│   ├── faiss_index/    # Vector store
+│   ├── tables/         # Arquivos .csv das tabelas
+│   ├── text/           # Texto da Resolução e tabelas
+├── evaluation/
+│   ├── analysis.py     # Obtenção da médias das métricas
+│   ├── data/           # Tabelas geradas para obter métricas
+│   ├── get_metrics.py  # Obtenção das métricas de avaliação
+├── pre_processing/
+│   ├── scraping.py     # Obtenção dos dados da página HTML
+│   ├── vector_space.py # Criação dos embeddings e Vector Store
+├── README.md 
+├── requirements.txt
+```
+---
 ## Pipeline
 
-### 1. Coleta e Processamento de Dados
+#### 1. Coleta e Processamento de Dados
 Como primeiro passo para o desenvolvimento do projeto, foi preciso obter os dados referentes à Resolução. Para isso, foi utilizada a biblioteca **requests**, e para análise dos elementos HTML, foi utilizada a biblioteca **Beautiful Soup**. Essa análise foi relevante principalmente no quesito do **tratamento de tabelas**, onde o BeautifulSoup permitiu separar as tabelas do texto original, para tratamento posterior.
 No processamento das tabelas, como muitas apresentavam características que limitavam sua compreensão como texto, como células mescladas nos headers, as transformamos em arquivos *csv* com auxílio do *ChatGPT*, e depois as transformamos em texto corrido e as guardamos em um arquivo .txt.
 
 
-### 2. Criação do Índice de Busca 
+#### 2. Criação do Índice de Busca 
 Para a separação do texto em chunks, separamos em duas abordagens distintas: uma para o texto completo, e a outra para as tabelas que foram extraídas do texto. 
 Para definir os chunks, utilizamos o Recursive Character Text Splitter, do langchain, e para as tabelas, consideramos apenas cada linha da tabela como um chunk distinto.
 Já para a geração das Embeddings, foi utilizado o modelo "all-MiniLM-L6-v2", a partir do HuggingFaceEmbeddings.
 Além disso, optamos por utilizar a FAISS vector store para (//colocar função da FAISS VECTOR STORE), já que (//colocar vantagens da FAISS VECTOR STORE).
 Por fim, unimos as representações vetoriais de ambas as fontes de texto e as guardamos em um arquivo separado, para ser consultado posteriormente.
 
-### 3. Recuperação de Contexto
+#### 3. Recuperação de Contexto
 Para a etapa da recuperação do contexto, obtemos a pergunta do usuário como input, e realizamos uma busca de similaridade na vector store, de modo a retornar os k chunks mais relevantes em relação à pergunta. 
 
-### 4. Geração de Respostas
+#### 4. Geração de Respostas
 Nesta etapa, o modelo LLaMA 3 (70B), acessado via a API Groq, é utilizado para gerar respostas baseadas nos chunks recuperados e na pergunta do usuário. O prompt foi elaborado combinando os chunks em um contexto estruturado e incluindo instruções para guiar o modelo, buscando respostas mais precisas. A resposta é construída a partir das saídas retornadas pelo modelo e apresentada ao usuário como resultado final.
 
 ---
@@ -39,9 +63,11 @@ Para a avaliação, foi utilizada a biblioteca RAGAs, de modo que foi gerado um 
 Com isso, foi possível avaliar a corretude dos fatos, a fidelidade dos fatos e a similaridade semântica com a resposta ideal. Tais métricas foram obtidas e salvas no arquivo "evaluation_results.csv".
 
 As métricas obtidas pela análise foram:
-Factual Correctness: 0.1361904761904762
-Faithfulness: 0.6978991596638655
-Semantic Similarity: 0.8360901115111442
+- **Corretude dos fatos**: 13.62%
+- **Fidelidade**: 69,79%
+- **Similaridade Semântica**: 83,61%
+
++adicionar comentário sobre as métricas obtidas
 
 ---
 

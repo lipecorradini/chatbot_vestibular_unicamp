@@ -1,5 +1,3 @@
-import csv
-import os
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.vectorstores import FAISS
@@ -7,103 +5,82 @@ from langchain.docstore.document import Document
 
 def split_text(file_path, chunk_size=1000, chunk_overlap=50):
     """
-    Splits the text from the given file into chunks of specified size with overlap.
-    
-    Args:
-        file_path (str): Path to the input text file.
-        chunk_size (int): Number of characters per chunk.
-        chunk_overlap (int): Number of overlapping characters between chunks.
-    
-    Returns:
-        List[str]: List of text chunks.
+    transforma o texto em chunks de tamanho e overlaps passados como parâmetro
     """
+
+    # abrindo arquivo para leitura
     with open(file_path, 'r', encoding='utf-8') as file:
         text = file.read()
     
+    # definindo o recursive text splitter.
     text_splitter = RecursiveCharacterTextSplitter(
-        separators=["\n\n", "\n", " ", ""],
+        separators=["\n\n", "\n", " ", ""], # generalizacao dos separadores
         chunk_size=chunk_size,
         chunk_overlap=chunk_overlap,
         length_function=len,
     )
     
-    # Split the text into chunks
+    # separando o texto
     chunks = text_splitter.split_text(text)
     
     return chunks
 
 def split_tables(file_path):
     """
-    Splits the tables text file into chunks where each line is a separate chunk.
-    
-    Args:
-        file_path (str): Path to the tables text file.
-    
-    Returns:
-        List[str]: List of table chunks, each corresponding to a line in the file.
+    divide as tabelas, considerando cada linha como um chunk diferente
     """
+    # abrindo arquivo para leitura
     with open(file_path, 'r', encoding='utf-8') as file:
         lines = file.readlines()
     
-    # Strip whitespace and skip empty lines
-    chunks = [line.strip() for line in lines if line.strip()]
+    # lista de chunks
+    chunks = [line for line in lines]
     
     return chunks
 
 def generate_embeddings_huggingface(documents, model_name="all-MiniLM-L6-v2"):
     """
-    Generates embeddings for each document using Hugging Face and adds them to FAISS.
-    
-    Args:
-        documents (List[Document]): List of LangChain Document objects.
-        model_name (str): Hugging Face model name for embeddings.
-    
-    Returns:
-        FAISS: FAISS vector store containing embeddings and metadata.
+    gerando os embeddings, com um encoder pré-definido, e guardando na FAISS vector store.
     """
-    # Initialize the Hugging Face embeddings model
+    # gerando embeddings 
     embeddings = HuggingFaceEmbeddings(model_name=model_name)
     
-    # Create FAISS vector store from documents
+    # alocando na vector store
     vector_store = FAISS.from_documents(documents, embeddings)
     
     return vector_store
 
+
+
 def main():
-    # Define file paths
+
+    # caminho de arquivos
     text_input_file = "../data/text/extracted_text.txt"
     tables_input_file = "../data/text/tables.txt"
     faiss_index_path = "../data/faiss_index"
     
-    # Step 1: Split the main text into chunks
-    print("Splitting main text into chunks...")
+    # dividindo texto em chunks
     text_chunks = split_text(text_input_file)
-    print(f"Total text chunks created: {len(text_chunks)}")
     
-    # Convert text chunks to Document objects with metadata
+    # convertendo chunks em documentos
     text_documents = [Document(page_content=chunk, metadata={"source": "text"}) for chunk in text_chunks]
     
-    # Step 2: Split the tables text into chunks (each line as a chunk)
-    print("Splitting tables text into chunks...")
+    # dividindo as tabelas em chunks
     table_chunks = split_tables(tables_input_file)
-    print(f"Total table chunks created: {len(table_chunks)}")
     
-    # Convert table chunks to Document objects with metadata
+    # transformando tabela e documentos
     table_documents = [Document(page_content=chunk, metadata={"source": "table"}) for chunk in table_chunks]
     
-    # Combine all documents
+    # unindo documentos para gerar a vector store
     all_documents = text_documents + table_documents
-    print(f"Total documents to embed: {len(all_documents)}")
     
-    # Step 3: Generate embeddings and create FAISS vector store
+    # gerando embeddings
     print("Generating embeddings with Hugging Face and creating FAISS vector store...")
     vector_store = generate_embeddings_huggingface(all_documents)
     
-    # Save the FAISS index for later use
+    # salvando o vector store localmente (./data/faiss_index)
     vector_store.save_local(faiss_index_path)
-    print(f"Embeddings generated and FAISS index saved locally at '{faiss_index_path}'.")
     
-    print("All chunks have been processed and added to the FAISS index.")
 
 if __name__ == "__main__":
     main()

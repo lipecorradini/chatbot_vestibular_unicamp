@@ -1,7 +1,9 @@
 import pandas as pd
 
 def return_results():
-
+    ''' 
+    mostra os resultados das métricas
+    '''
     # lendo o arquivo .csv com os resultados
     results = pd.read_csv('./evaluation_results.csv')
     
