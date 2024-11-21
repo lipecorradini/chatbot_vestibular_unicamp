@@ -5,7 +5,7 @@ Esse projeto foi desenvolvido como uma das etapas do proceso de estágio na [Neu
 
 ## Uso
 
-O deploy do chatbot foi realizado utilizando o streamlit, e está disponível para ser testado em https://chatbotunicamp2025.streamlit.app/. Lembre-se de adicionar sua chave API da OpenAI no StreamClound em Settings/Secrets.
+O deploy do chatbot foi realizado utilizando o streamlit, e está disponível para ser testado em https://chatbotunicamp2025.streamlit.app/.
 
 ![](data/images/streamlit.png)
 
