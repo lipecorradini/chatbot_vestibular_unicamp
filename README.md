@@ -12,7 +12,7 @@ O deploy do chatbot foi realizado utilizando o streamlit, e está disponível pa
 Para instalar localmente, basta executar:
 
 ```python
- pip install requirements.txt
+ pip install -r requirements.txt
 ```
 E para executar os testes:
 
