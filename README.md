@@ -18,7 +18,7 @@ E para executar os testes:
 
 ```python
 python3 -m evaluation.get_metrics
-python3 analysis.py
+python3 evaluation.analysis.py
  ```
 
 ---
