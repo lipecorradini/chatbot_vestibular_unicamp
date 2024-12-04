@@ -1,6 +1,6 @@
 # Chatbot para auxiliar alunos com perguntas em relação ao vestibular da Unicamp 2025
 
-Esse projeto foi desenvolvido como uma das etapas do processo de estágio na [Neuralmind](https://neuralmind.ai/en/home-en/). O objetivo do projeto foi desenvolver um chatbot que, utilizando Retrieval-Augmented Generation (RAG), consiga responder dúvidas acerca da [Resolução GR-029/2024](https://www.pg.unicamp.br/norma/31879/0), documento contendo informações gerais acerca do vestibular. 
+O objetivo do projeto foi desenvolver um chatbot que, utilizando Retrieval-Augmented Generation (RAG), consiga responder dúvidas acerca da [Resolução GR-029/2024](https://www.pg.unicamp.br/norma/31879/0), documento contendo informações gerais acerca do vestibular. 
 
 
 ## Uso
